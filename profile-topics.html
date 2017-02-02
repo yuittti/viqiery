@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Visinly</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Template styles -->
+    <style rel="stylesheet">
+        /* TEMPLATE STYLES */
+
+        main {
+            padding-top: 3rem;
+            padding-bottom: 2rem;
+        }
+
+        .widget-wrapper {
+            padding-bottom: 2rem;
+            border-bottom: 1px solid #e0e0e0;
+            margin-bottom: 2rem;
+        }
+
+        .reviews {
+            text-align: center;
+            border-top: 1px solid #e0e0e0;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 1rem;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .price {
+            position: absolute;
+            left: 0;
+            top: 0;
+            margin-top: -2px;
+        }
+
+        .price .tag {
+            margin: 0;
+        }
+    </style>
+
+</head>
+
+<body class="user-page">
+
+
+<header>
+
+    <!--Navbar-->
+    <nav class="navbar">
+
+        <!-- Collapse button-->
+        <!--<button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#collapseEx">-->
+        <!--<i class="fa fa-bars"></i>-->
+        <!--</button>-->
+
+        <div class="container">
+
+            <!--Collapse content-->
+            <div class="left-nav" id="">
+                <!--<button type="button" class="burger-btn">-->
+                <!--<div class="burger-wrapper">-->
+                <!--<div class="burger-icon">-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--</button>-->
+                <!--Navbar Brand-->
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" alt=""/>
+                    <!--<p id="icon" style="text-shadow: rgb(48, 117, 165) 0px 0px 0px, rgb(48, 118, 166) 1px 1px 0px, rgb(49, 120, 168) 2px 2px 0px, rgb(49, 121, 170) 3px 3px 0px, rgb(50, 122, 172) 4px 4px 0px, rgb(50, 124, 174) 5px 5px 0px, rgb(51, 125, 176) 6px 6px 0px, rgb(52, 127, 178) 7px 7px 0px, rgb(52, 128, 180) 8px 8px 0px, rgb(53, 129, 182) 9px 9px 0px, rgb(53, 131, 184) 10px 10px 0px, rgb(54, 132, 186) 11px 11px 0px, rgb(54, 134, 188) 12px 12px 0px, rgb(55, 135, 190) 13px 13px 0px, rgb(56, 136, 192) 14px 14px 0px, rgb(56, 138, 194) 15px 15px 0px, rgb(57, 139, 196) 16px 16px 0px, rgb(57, 141, 198) 17px 17px 0px, rgb(58, 142, 200) 18px 18px 0px, rgb(58, 143, 202) 19px 19px 0px, rgb(59, 145, 204) 20px 20px 0px, rgb(60, 146, 206) 21px 21px 0px, rgb(60, 148, 208) 22px 22px 0px, rgb(61, 149, 210) 23px 23px 0px, rgb(61, 150, 212) 24px 24px 0px, rgb(62, 152, 213) 25px 25px 0px, rgb(62, 153, 215) 26px 26px 0px, rgb(63, 154, 217) 27px 27px 0px, rgb(63, 156, 219) 28px 28px 0px, rgb(64, 157, 221) 29px 29px 0px, rgb(65, 159, 223) 30px 30px 0px, rgb(65, 160, 225) 31px 31px 0px, rgb(66, 161, 227) 32px 32px 0px, rgb(66, 163, 229) 33px 33px 0px, rgb(67, 164, 231) 34px 34px 0px, rgb(67, 166, 233) 35px 35px 0px; font-size: 32px; color: rgb(255, 255, 255); height: 44px; overflow: hidden; margin-bottom: 0; width: 126px; line-height: 44px; border-radius: 5px; text-align: center; background-color: rgb(68, 167, 235);">Viqiery</p>-->
+                    <!--<p id="icon" style="font-size: 32px; color: #595a5a; height: 44px; overflow: hidden; margin-bottom: 0; width: 126px; line-height: 44px; border-radius: 0; text-align: center; background-color: #ffffff;"> Visinly </p>-->
+                </a>
+            </div>
+
+            <div class="mid-nav">
+                <form class="search-form-header" action="search.php">
+                    <input type="text" placeholder="Search for..." id="mainSearch">
+                    <button class="" type="submit">Go!</button>
+                    <div class="search-tooltip z-depth-1">
+
+                        <p class="tooltip-nores s-item">No results, try to find your question in the topics or add the new one</p>
+                        <a href="asd" class="related-topic-item s-item">Getting Smarter</a>
+                        <a href="asdf" class="related-topic-item s-item">Getting Rich</a>
+
+                        <a href="dd" class="search-item-found s-item">
+                            <span><span class="search-matched">How to get smarter</span></span>
+                            <span class="related-topic-item">Topic: Getting Smarter</span>
+                        </a>
+                        <a href="dd" class="search-item-found s-item">
+                            <span><span class="search-matched">How to get smart</span> as Einstein</span>
+                            <span class="related-topic-item">Topic: Getting Smarter</span>
+                        </a>
+                        <a href="dd" class="search-item-found-parts s-item">
+                            <span><span class="search-matched">How to get</span> more friends and other things</span>
+                            <span class="related-topic-item">Topic: Some other topic</span>
+                        </a>
+
+                    </div>
+                </form>
+            </div>
+
+            <div class="right-nav">
+                <a class="mob-btn" id="mobBtn">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </a>
+                <ul class="nav navbar-nav">
+                    <li class="nav-item item-highlighted">
+                        <a class="nav-link">Become a Content Creator</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">How it works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Sign up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Log in</a>
+                    </li>
+                    <li class="nav-item search-mob-btn">
+                        <a href="#" id="searchMobBtn" class=" waves-effect waves-light">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                <!--<a href="#" class="notifications">-->
+                <!--<i class="fa fa-bell" aria-hidden="true"></i>-->
+                <!--<span class="notification-num">1112</span>-->
+                <!--</a>-->
+                <!--<a href="#" class="hm-white-slight overlay view">-->
+                <!--<img src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-2.jpg" class="img-circle">-->
+                <!--<div class="mask waves-effect waves-light avatar-mask"></div>-->
+                <!--</a>-->
+
+
+
+
+            </div>
+
+        </div>
+
+    </nav>
+    <!--/.Navbar-->
+
+</header>
+
+<main>
+
+    <div class="container ">
+        <div class="row" style="margin-bottom: 20px;">
+            <div class="col-md-8 profile-info">
+
+                <div class="card-block">
+                    <div class="media-left" href="#">
+                        <img src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-2.jpg"
+                             class="img-circle question-author z-depth-2">
+
+                        <p class="date text-center">Rate: 100500</p>
+
+                        <a href="#" class="btn btn-edit">Follow</a>
+                    </div>
+
+                    <!--Title-->
+                    <div class="media-body">
+                        <div class="top-line clearfix">
+                            <h6 class="card-title">Naomi Lulizera</h6>
+                            <p class="card-text inline-txt">Followers: <a href="#">150</a></p>
+                            <p class="card-text inline-txt">Following: <a href="#">250</a></p>
+                        </div>
+
+                        <!--Text-->
+                        <p class="card-text">Artist, Entrepreneur, Google Inc.</p>
+                        <a href="#" class="card-text inline-link">My resume</a>
+                        <p class="card-text">Artist, Entrepreneur, and a bunch of random other crap. Artist, Entrepreneur, Artist</p>
+                        <a href="#" class="author-more">More...</a>
+
+                        <div class="author-more-info">
+                            <p class="card-text">More additional info about author</p>
+                        </div>
+
+                        <ul class="card-tags">
+                            <li class="tag-item">
+                                <a href="#">Getting Smarter</a>
+                            </li>
+                            <li class="tag-item">
+                                <a href="#">Smart People</a>
+                            </li>
+                            <li class="tag-item">
+                                <a href="#">Books</a>
+                            </li>
+                            <li class="tag-item">
+                                <a href="#">Self-Developement</a>
+                            </li>
+                            <li class="tag-item">
+                                <a href="#">Intelligence</a>
+                            </li>
+                            <li class="tag-item">
+                                <a href="#">+7</a>
+                            </li>
+                        </ul>
+                        <!--<p class="card-text small">Do we have to do a lot of still life sketching to improve on drawing and shading before trying with water color drawing and landscape?</p>-->
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-4 resume-preview">
+                <div class="card">
+                    <h2 class="text-center aside-title">My resume</h2>
+                    
+                    <div class="img-resume">
+                        <a href="#">
+                            <img src="img/inf1.jpg" alt="gg">
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!--<div class="col-md-4 profile-stats">-->
+            <!--<div class="card-block z-depth-1">-->
+
+
+            <!--&lt;!&ndash;Title&ndash;&gt;-->
+            <!--<div class="media-body">-->
+            <!--&lt;!&ndash;Text&ndash;&gt;-->
+            <!--<p class="card-text">Answers: 150</p>-->
+            <!--<p class="card-text">Followers: <a href="#">150</a></p>-->
+            <!--<p class="card-text">Following: <a href="#">250</a></p>-->
+            <!--<p class="card-text"><a href="#">Topics</a></p>-->
+            <!--<p class="card-text"><a href="#">Create Resume</a></p>-->
+            <!--&lt;!&ndash;<p class="card-text small">Do we have to do a lot of still life sketching to improve on drawing and shading before trying with water color drawing and landscape?</p>&ndash;&gt;-->
+
+            <!--</div>-->
+
+            <!--</div>-->
+            <!--</div>-->
+
+
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="row">
+
+
+
+
+
+            <div class="col-xl-12 col-lg-12 col-md-12 right-side">
+
+                <!--<h2 class="h2-responsive text-center side-title">Provide or get visual answers on your professional topic</h2>-->
+                <!--<h3 class="side-subtitle">Use infographics, screenshots, pictures, video</h3>-->
+
+
+
+                <div class="row cards-answers">
+                    <h4 class="text-center aside-title">Topics 150, Answers 150</h4>
+                    <br>
+
+                    <div class="user-topics-list">
+
+                        <div class="user-topic-item col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="card-block z-depth-1">
+                                <a href="#">
+                                    <img src="img/inf10.jpg" alt="" class="left-preview">
+                                    <img src="img/inf2.jpg" alt="" class="right-preview">
+                                </a>
+
+                            </div>
+                            <a href="#" class="topic-name">Self Developement</a>
+
+                        </div>
+
+                        <div class="user-topic-item col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="card-block z-depth-1">
+                                <a href="#">
+                                    <img src="img/inf13.jpg" alt="" class="left-preview">
+                                    <img src="img/inf11.jpg" alt="" class="right-preview">
+                                </a>
+
+                            </div>
+                            <a href="#" class="topic-name">Self Developement</a>
+
+                        </div>
+                        <div class="user-topic-item col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="card-block z-depth-1">
+                                <a href="#">
+                                    <img src="img/inf1.jpg" alt="" class="left-preview">
+                                    <div class="empty-img right-preview"></div>
+                                </a>
+
+                            </div>
+                            <a href="#" class="topic-name">Self Developement</a>
+                        </div>
+
+                        <div class="user-topic-item col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="card-block z-depth-1">
+                                <a href="#">
+                                    <img src="img/inf3.jpg" alt="" class="left-preview">
+                                    <img src="img/inf4.jpg" alt="" class="right-preview">
+                                </a>
+
+                            </div>
+                            <a href="#" class="topic-name">Self Developement</a>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    <!--/.Main layout-->
+
+</main>
+
+<!--Footer-->
+<footer class="page-footer center-on-small-only primary-color-dark">
+
+    <!--Footer Links-->
+    <div class="container">
+        <div class="row">
+
+            <!--First column-->
+            <div class="col-xl-2 col-lg-2 col-md-12">
+                <a class="navbar-brand waves-effect waves-light" href="/">
+                    <img src="img/logo-w.png" alt=""/>
+                    <!--<p id="icon" style="display: block; text-shadow: rgb(9, 50, 113) 0px 0px 0px, rgb(9, 52, 117) 1px 1px 0px, rgb(10, 54, 121) 2px 2px 0px, rgb(10, 56, 126) 3px 3px 0px, rgb(11, 57, 130) 4px 4px 0px, rgb(11, 59, 135) 5px 5px 0px, rgb(11, 61, 139) 6px 6px 0px, rgb(12, 63, 143) 7px 7px 0px, rgb(12, 65, 148) 8px 8px 0px, rgb(12, 67, 152) 9px 9px 0px, rgb(13, 69, 157) 10px 10px 0px; font-size: 32px; color: rgb(255, 255, 255); height: 44px; overflow: hidden; margin-bottom: 0; width: 126px; line-height: 44px; border-radius: 0; text-align: center; background-color: rgb(13, 71, 161); text-align: center;"> Visinly </p>-->
+                </a>
+            </div>
+            <!--/.First column-->
+
+            <!--Second column-->
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 offset-xl-1 offset-lg-1 offset-md-0">
+                <h6 class="title">Menu first</h6>
+                <ul>
+                    <li><a href="#" class="small">About</a></li>
+                    <li><a href="#" class="small">Privacy</a></li>
+                    <li><a href="#" class="small">Terms</a></li>
+                    <li><a href="#" class="small">Contact</a></li>
+                    <li><a href="#" class="small">Sitemap</a></li>
+                </ul>
+            </div>
+            <!--/.Second column-->
+
+            <!--Third column-->
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+                <h6 class="title">Menu second</h6>
+                <ul>
+                    <li><a href="#" class="small">About</a></li>
+                    <li><a href="#" class="small">Privacy</a></li>
+                    <li><a href="#" class="small">Terms</a></li>
+                    <li><a href="#" class="small">Contact</a></li>
+
+                </ul>
+            </div>                <!--/.Third column-->
+
+            <!--Fourth column-->
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+                <h6 class="title">Menu third</h6>
+                <ul>
+                    <li><a href="#" class="small">About</a></li>
+                    <li><a href="#" class="small">Privacy</a></li>
+                    <li><a href="#" class="small">Terms</a></li>
+                    <li><a href="#" class="small">Contact</a></li>
+                    <li><a href="#" class="small">Sitemap</a></li>
+
+                </ul>
+            </div>                <!--/.Fourth column-->
+
+
+            <div class="col-xl-2 col-lg-2 col-md-12 offset-xl-1 offset-lg-1 offset-md-0 copyright">
+                    <span class="small">
+                        © 2016 Copyright: <a href="#"> Visinly </a>
+                    </span>
+
+            </div>
+
+        </div>
+    </div>
+    <!--/.Footer Links-->
+
+
+
+
+
+</footer>
+<!--/.Footer-->
+
+<!-- SCRIPTS -->
+
+<!-- JQuery -->
+<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="js/tether.min.js"></script>
+
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="js/mdb.min.js"></script>
+
+<script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
+
+<script type="text/javascript" src="js/main.js"></script>
+
+
+</body>
+
+</html>

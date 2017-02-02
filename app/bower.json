@@ -1,0 +1,22 @@
+{
+  "name": "visinly",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Sergey Kozachenko <kozachenkos@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-sanitize": "^1.5.7",
+    "angular-ui-router": "^0.3.1",
+    "angular": "^1.5.7"
+  }
+}

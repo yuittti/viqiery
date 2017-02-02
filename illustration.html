@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Visinly</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Template styles -->
+    <style rel="stylesheet">
+        /* TEMPLATE STYLES */
+
+        main {
+            padding-top: 3rem;
+            padding-bottom: 2rem;
+        }
+
+        .widget-wrapper {
+            padding-bottom: 2rem;
+            border-bottom: 1px solid #e0e0e0;
+            margin-bottom: 2rem;
+        }
+
+        .reviews {
+            text-align: center;
+            border-top: 1px solid #e0e0e0;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 1rem;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .price {
+            position: absolute;
+            left: 0;
+            top: 0;
+            margin-top: -2px;
+        }
+
+        .price .tag {
+            margin: 0;
+        }
+    </style>
+
+</head>
+
+<body class="question-page">
+    <header>
+        <!--Navbar-->
+        <nav class="navbar">
+            <div class="container">
+                <!--Collapse content-->
+                <div class="left-nav">
+                    <!--Navbar Brand-->
+                    <a class="navbar-brand" href="#">
+                        <img src="img/logo.png" alt=""/>
+                    </a>
+                </div>
+
+                <div class="mid-nav">
+                    <form class="search-form-header" action="search.php">
+                        <input type="text" placeholder="Search for..." id="mainSearch">
+                        <button class="" type="submit">Go!</button>
+                        <div class="search-tooltip z-depth-1">
+                            <p class="tooltip-nores s-item">No results, try to find your question in the topics or add the new one</p>
+                            <a href="asd" class="related-topic-item s-item">Getting Smarter</a>
+                            <a href="asdf" class="related-topic-item s-item">Getting Rich</a>
+
+                            <a href="dd" class="search-item-found s-item">
+                                <span><span class="search-matched">How to get smarter</span></span>
+                                <span class="related-topic-item">Topic: Getting Smarter</span>
+                            </a>
+                            <a href="dd" class="search-item-found s-item">
+                                <span><span class="search-matched">How to get smart</span> as Einstein</span>
+                                <span class="related-topic-item">Topic: Getting Smarter</span>
+                            </a>
+                            <a href="dd" class="search-item-found-parts s-item">
+                                <span><span class="search-matched">How to get</span> more friends and other things</span>
+                                <span class="related-topic-item">Topic: Some other topic</span>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="right-nav">
+                    <a class="mob-btn" id="mobBtn">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </a>
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item item-highlighted">
+                            <a class="nav-link">Become a Content Creator</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">How it works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Sign up</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Log in</a>
+                        </li>
+                        <li class="nav-item search-mob-btn">
+                            <a href="#" id="searchMobBtn" class="waves-effect waves-light">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--/.Navbar-->
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row" style="">
+                <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12 question-left-side">
+                    <div class="row question-answers" style="margin-top: 0;">
+                        <div class="col-md-12">
+                            <div class="answer-card" style="margin-top: 0;">
+                                <div class="row author-line">
+                                    <div class="col-md-12 card-wrapper">
+                                        <div class="avatar media col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                                            <img alt="alt" src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-2.jpg"
+                                                 class="img-circle img-responsive m-x-auto d-block">
+                                        </div>
+
+                                        <div class="author-info col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                                            <h6 class="small"><a href="#">Heather Hollick</a></h6>
+                                            <p class="small user-role">MS in Mathematics, MBA (Berkeley), Mensa, aficionado of all things interesting</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row img-description">
+                                    <div class="col-md-12 " style="margin-top: 1em;margin-bottom: 3em;">
+                                        <h1 style="font-size: 1.25em;">This is the place for image description added by user on upload the place for image description added by user on upload the place for image description added by user on upload is the place for image description added by user on upload the place for image description added by user on upload the place for image description added by user on upload</h1>
+                                        <!--<p class="date text-center">13 Oct 2016</p>-->
+                                    </div>
+                                </div>
+
+                                <div class="row answer-img">
+                                    <div class="col-md-12 text-center">
+                                        <div class="valid-wrapper">
+                                            <button class="btn">Save</button>
+                                            <a href="#">
+                                                <img src="img/inf13.jpg" alt="" class="img-responsive">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <a href="#" class="btn btn-info" style="margin-left: 0;">Upvote</a>
+                                <a href="#" class="answer-btn txt-btn comments-counter">
+                                    <span class="btn-name">Comments</span>
+                                    <span class="btn-label">150</span>
+                                </a>
+
+                                <div class="row comments-hidden">
+                                    <div class="col-md-12">
+                                        <div class="comments-block">
+                                            <div class="comment-item row">
+                                                <div class="comment-avatar col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                                                    <a href="#">
+                                                        <img src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-2.jpg" alt="">
+                                                    </a>
+                                                </div>
+
+                                                <div class="comment-txt col-lg-11 col-md-11 col-sm-11 col-xs-11">
+                                                    <p class="comment-uname">
+                                                        <a href="#">John Johnovich</a>
+                                                    </p>
+                                                    <p class="date" style="font-weight: bold;color: #555;font-size: 10px;">17 Oct 2016</p>
+                                                    <p class="comment-body">This is the place for image description added by user on upload the place for image description added by user on upload the place for image description added by user on upload is the place for image description added by user on upload the place for image description added by user on upload the place for image description added by user on upload</p>
+                                                    <a href="#" class="reply-comment">Reply</a>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="comment-item row">
+                                                <div class="comment-avatar col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                                                    <a href="#">
+                                                        <img src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-2.jpg" alt="">
+                                                    </a>
+                                                </div>
+
+                                                <div class="comment-txt col-lg-11 col-md-11 col-sm-11 col-xs-11">
+                                                    <p class="comment-uname">
+                                                        <a href="#">John Johnovich</a>
+                                                    </p>
+                                                    <p class="date" style="font-weight: bold;color: #555;font-size: 10px;">17 Oct 2016</p>
+                                                    <p class="comment-body">This is the place for image description added by user on upload the place for image description added by user on upload the place for image description added by user on upload is the place for image description added by user on upload the place for image description added by user on upload the place for image description added by user on upload</p>
+                                                    <a href="#" class="reply-comment">Reply</a>
+                                                </div>
+                                            </div>
+
+                                            <hr>
+
+                                            <div class="comment-item row">
+                                                <div class="comment-avatar col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                                                    <a href="#">
+                                                        <img src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-2.jpg" alt="">
+                                                    </a>
+                                                </div>
+
+                                                <div class="comment-txt col-lg-11 col-md-11 col-sm-11 col-xs-11">
+                                                    <p class="comment-uname">
+                                                        <a href="#">John Johnovich</a>
+                                                    </p>
+                                                    <p class="date" style="font-weight: bold;color: #555;font-size: 10px;">17 Oct 2016</p>
+                                                    <p class="comment-body">This is the place for image description added by user on upload the place for image description added by user on upload the place for image description added by user on upload is the place for image description added by user on upload the place for image description added by user on upload the place for image description added by user on upload</p>
+                                                    <a href="#" class="reply-comment">Reply</a>
+                                                </div>
+                                            </div>
+
+                                            <hr>
+
+                                            <div class="comment-item row">
+                                                <div class="comment-avatar col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                                                    <a href="#">
+                                                        <img src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-2.jpg" alt="">
+                                                    </a>
+                                                </div>
+
+                                                <div class="comment-txt col-lg-11 col-md-11 col-sm-11 col-xs-11">
+                                                    <p class="comment-uname">
+                                                        <a href="#">John Johnovich</a>
+                                                    </p>
+                                                    <p class="date" style="font-weight: bold;color: #555;font-size: 10px;">17 Oct 2016</p>
+                                                    <p class="comment-body">This is the place for image description added by user on upload the place for image description added by user on upload the place for image description added by user on upload is the place for image description added by user on upload the place for image description added by user on upload the place for image description added by user on upload</p>
+                                                    <a href="#" class="reply-comment">Reply</a>
+                                                </div>
+                                            </div>
+
+                                            <hr>
+
+                                            <form action="send-comment.php" class="comment-item row" style="padding-bottom: 0;margin-top: 1.25em;">
+                                                <div class="comment-avatar col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                                                    <a href="#">
+                                                        <img src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-2.jpg" alt="">
+                                                    </a>
+                                                </div>
+
+                                                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                                                    <input id="commentInput" type="text" class="" style="font-size: 14px;" placeholder="Leave your comment">
+                                                </div>
+
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                                                    <input type="submit" value="Comment" class="btn btn-info send-comment success-color-dark">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                    <h2 class="text-center aside-title" style="margin-bottom: 0.5em;">Illustration's tags</h2>
+                    <p style="font-size: 14px;font-weight: bold;color: gray;">
+                        Brain, Info, Infographics, Blue, Money, Tag, Welcome
+                    </p>
+
+                    <h2 class="text-center aside-title">Related questions</h2>
+
+                    <div class="rel-questions-list">
+                        <a href="#">Will Hillary Clinton attempt to rig the election in her favor?</a>
+                        <a href="#">Why do some Sanders supporters that believe the DNC rigged the Democratic primary support Hillary Clinton?</a>
+                        <a href="#">What evidence supports the theory that the United States presidential elections are rigged?</a>
+                        <a href="#">What is the physical, verifiable, non-anecdotal evidence that the Democratic primary election process is "rigged"?</a>
+                        <a href="#">After Obama beat Clinton did Clinton supporters think the race had been rigged the way that Sanders supporters think the race has been rigged?...</a>
+                        <a href="#">Are the US elections rigged?</a>
+                        <a href="#">Why do many Sanders supporters profess their intent to explicitly support Trump by not voting for Clinton in the general election?</a>
+                        <a href="#">If Sanders endorses Jill Stein or refuses to support Clinton will Trump steal the general election?</a>
+                        <a href="#">Why does President Obama support Hillary Clinton in the 2016 presidential election?</a>
+                        <a href="#">Will any Bernie Sanders supporters vote for Hillary if she becomes the Democrat nominee?</a>
+                        <a href="question-list.html" style="display: inline-block; text-decoration: underline;">More...</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--/.Main layout-->
+    </main>
+
+    <!--Footer-->
+    <footer class="page-footer center-on-small-only primary-color-dark">
+        <!--Footer Links-->
+        <div class="container">
+            <div class="row">
+                <!--First column-->
+                <div class="col-xl-2 col-lg-2 col-md-12">
+                    <a class="navbar-brand waves-effect waves-light" href="/">
+                        <img src="img/logo-w.png" alt=""/>
+                        <!--<p id="icon" style="display: block; text-shadow: rgb(9, 50, 113) 0px 0px 0px, rgb(9, 52, 117) 1px 1px 0px, rgb(10, 54, 121) 2px 2px 0px, rgb(10, 56, 126) 3px 3px 0px, rgb(11, 57, 130) 4px 4px 0px, rgb(11, 59, 135) 5px 5px 0px, rgb(11, 61, 139) 6px 6px 0px, rgb(12, 63, 143) 7px 7px 0px, rgb(12, 65, 148) 8px 8px 0px, rgb(12, 67, 152) 9px 9px 0px, rgb(13, 69, 157) 10px 10px 0px; font-size: 32px; color: rgb(255, 255, 255); height: 44px; overflow: hidden; margin-bottom: 0; width: 126px; line-height: 44px; border-radius: 0; text-align: center; background-color: rgb(13, 71, 161); text-align: center;"> Visinly </p>-->
+                    </a>
+                </div>
+                <!--/.First column-->
+
+                <!--Second column-->
+                <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 offset-xl-1 offset-lg-1 offset-md-0">
+                    <h6 class="title">Menu first</h6>
+                    <ul>
+                        <li><a href="#" class="small">About</a></li>
+                        <li><a href="#" class="small">Privacy</a></li>
+                        <li><a href="#" class="small">Terms</a></li>
+                        <li><a href="#" class="small">Contact</a></li>
+                        <li><a href="#" class="small">Sitemap</a></li>
+                    </ul>
+                </div>
+                <!--/.Second column-->
+
+                <!--Third column-->
+                <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+                    <h6 class="title">Menu second</h6>
+                    <ul>
+                        <li><a href="#" class="small">About</a></li>
+                        <li><a href="#" class="small">Privacy</a></li>
+                        <li><a href="#" class="small">Terms</a></li>
+                        <li><a href="#" class="small">Contact</a></li>
+
+                    </ul>
+                </div>                <!--/.Third column-->
+
+                <!--Fourth column-->
+                <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+                    <h6 class="title">Menu third</h6>
+                    <ul>
+                        <li><a href="#" class="small">About</a></li>
+                        <li><a href="#" class="small">Privacy</a></li>
+                        <li><a href="#" class="small">Terms</a></li>
+                        <li><a href="#" class="small">Contact</a></li>
+                        <li><a href="#" class="small">Sitemap</a></li>
+                    </ul>
+                </div>                <!--/.Fourth column-->
+
+                <div class="col-xl-2 col-lg-2 col-md-12 offset-xl-1 offset-lg-1 offset-md-0 copyright">
+                    <span class="small">
+                        © 2016 Copyright: <a href="#"> Visinly </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!--/.Footer Links-->
+    </footer>
+    <!--/.Footer-->
+
+    <!-- Modal -->
+    <div class="modal fade" id="chooseAnswer" tabindex="-1" role="dialog" aria-labelledby="chooseAnswer" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <!--Content-->
+            <div class="modal-content">
+                <!--Header-->
+                <div class="modal-header" style="border: 0; padding: 0;">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title col-md-12">To provide your visual answer and upload your picture or video</h4>
+                </div>
+                <!--Body-->
+                <div class="modal-body">
+                    <div class="row btn-answer-block">
+                        <div class="col-md-12 btn-answer-wrapper">
+                            <div class="btn-answer-item">
+                                <a class="btn answer-btn choose-btn" href="#"
+                                   data-toggle="modal"
+                                   data-target="#answerModal1"
+                                   data-answer="Screenshot"
+                                   data-dismiss="modal"
+                                   data-title="Do we have to do a lot of still life sketching to improve on drawing and shading?">
+
+                                    <i class="fa fa-desktop" aria-hidden="true"></i>
+                                    <span class="btn-title">Screenshot</span>
+                                    <span class="btn-subtitle">(it will be added automatically)</span>
+                                </a>
+                            </div>
+
+                            <div class="btn-answer-item">
+                                <a class="btn answer-btn choose-btn" href="#"
+                                   data-toggle="modal"
+                                   data-target="#answerModal"
+                                   data-answer="Upload"
+                                   data-dismiss="modal"
+                                   data-title="Do we have to do a lot of still life sketching to improve on drawing and shading?">
+
+                                    <i class="fa fa-upload" aria-hidden="true"></i>
+                                    <span class="btn-title">Upload</span>
+                                    <span class="btn-subtitle">(from you computer)</span>
+                                </a>
+                            </div>
+
+                            <div class="btn-answer-item">
+                                <a class="btn answer-btn choose-btn" href="#"
+                                   data-toggle="modal"
+                                   data-target="#answerModalUrl"
+                                   data-answer="URL"
+                                   data-dismiss="modal"
+                                   data-title="Do we have to do a lot of still life sketching to improve on drawing and shading?">
+
+                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                    <span class="btn-title">URL</span>
+                                    <span class="btn-subtitle">(insert the link)</span>
+                                </a>
+                            </div>
+
+                            <div class="btn-answer-item">
+                                <a class="btn answer-btn choose-btn" href="#"
+                                   data-toggle="modal"
+                                   data-target="#answerModal"
+                                   data-answer="From account"
+                                   data-dismiss="modal"
+                                   data-title="Do we have to do a lot of still life sketching to improve on drawing and shading?">
+
+                                    <i class="fa fa-list-alt" aria-hidden="true"></i>
+                                    <span class="btn-title">From account</span>
+                                    <span class="btn-subtitle">(your picture saved earlier)</span>
+                                </a>
+                            </div>
+
+                            <div class="btn-answer-item">
+                                <a class="btn answer-btn choose-btn" href="#"
+                                   data-toggle="modal"
+                                   data-target="#answerModalUrl"
+                                   data-answer="Video"
+                                   data-dismiss="modal"
+                                   data-title="Do we have to do a lot of still life sketching to improve on drawing and shading?">
+
+                                    <i class="fa fa-film" aria-hidden="true"></i>
+                                    <span class="btn-title">Video</span>
+                                    <span class="btn-subtitle">(insert your video)</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Footer-->
+                <div class="modal-footer" style="border: 0; padding: 0;">
+                    <!--<button type="button" class="btn btn-primary">Submit answer</button>-->
+                </div>
+            </div>
+            <!--/.Content-->
+        </div>
+    </div>
+    <!-- /.Live preview-->
+
+    <!-- Modal -->
+    <div class="modal fade" id="answerModal" tabindex="-1" role="dialog" aria-labelledby="answerModal" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <!--Content-->
+            <div class="modal-content">
+                <!--Header-->
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <!--<span aria-hidden="true">&times;</span>-->
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="back" data-dismiss="modal" aria-label="back" data-toggle="modal" data-target="#chooseAnswer">
+                        <!--<span aria-hidden="true">&larr;</span>-->
+                        <i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel1"></h4>
+                </div>
+                <!--Body-->
+                <div class="modal-body">
+                    <div class="answer-form">
+                        <h5 id="answerType"></h5>
+
+                        <form>
+                            <input type="file">
+                        </form>
+                    </div>
+
+                    <div class="row ">
+                        <div class="text-answer col-md-12">
+                            <textarea cols="30" rows="10" placeholder="Write your answer"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <!--Footer-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" id="sendFile">Submit answer</button>
+                </div>
+            </div>
+            <!--/.Content-->
+        </div>
+    </div>
+
+    <div class="modal fade" id="answerModalUrl" tabindex="-1" role="dialog" aria-labelledby="answerModalUrl" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <!--Content-->
+            <div class="modal-content">
+                <!--Header-->
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <!--<span aria-hidden="true">&times;</span>-->
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="back" data-dismiss="modal" aria-label="back" data-toggle="modal" data-target="#chooseAnswer">
+                        <i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>
+                    </button>
+                    <h4 class="modal-title"></h4>
+                </div>
+                <!--Body-->
+                <div class="modal-body">
+                    <form>
+                        <div class="answer-form">
+                            <h5 id="answerType"></h5>
+                            <input type="text" placeholder="Insert URL of media">
+                        </div>
+
+                        <div class="row ">
+                            <div class="text-answer col-md-12">
+                                <textarea cols="30" rows="10" placeholder="Write your answer"></textarea>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <!--Footer-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" id="sendMediaUrl">Submit answer</button>
+                </div>
+            </div>
+            <!--/.Content-->
+        </div>
+    </div>
+
+    <div class="modal fade" id="answerModal1" tabindex="-1" role="dialog" aria-labelledby="answerModal" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <!--Content-->
+            <div class="modal-content">
+                <!--Header-->
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="back" data-dismiss="modal" aria-label="back" data-toggle="modal" data-target="#chooseAnswer">
+                        <i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel1"></h4>
+                </div>
+                <!--Body-->
+                <div class="modal-body">
+                    <div class="answer-form">
+                        <h5 style="color: #4285f4; font-weight: bold;"><a href="#">You can use our addon to answer the question</a></h5>
+                    </div>
+
+                    <div class="row ">
+                        <div class="text-answer col-md-12">
+                            <img src="img/left-screen.png" alt="" style="max-width: 100%;display: block;margin: 0 auto;width: auto;"/>
+                        </div>
+                    </div>
+                </div>
+                <!--Footer-->
+                <div class="modal-footer"></div>
+            </div>
+            <!--/.Content-->
+        </div>
+    </div>
+
+    <div class="modal fade" id="questionFollowers" tabindex="-1" role="dialog" aria-labelledby="questionFollowers" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <!--Content-->
+            <div class="modal-content">
+                <!--Header-->
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                    </button>
+
+                    <h4 class="modal-title">Question followers</h4>
+                </div>
+                <!--Body-->
+                <div class="modal-body">
+                    <div class="row user-cards-list modal-view">
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4">
+                            <div class="card-wrapper user-card waves-light waves-effect waves-light">
+                                <div class="avatar media ">
+                                    <img alt="alt" src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-1.jpg" class="img-circle img-responsive m-x-auto d-block">
+                                </div>
+
+                                <h6 class="text-center small"><strong>Heather Hollick</strong></h6>
+
+                                <p class="text-center small user-role">MS in Mathematics, MBA (Berkeley), Mensa, aficionado of all things interesting</p>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4">
+                            <div class="card-wrapper user-card waves-light waves-effect waves-light">
+                                <div class="avatar media ">
+                                    <img alt="alt" src="http://mdbootstrap.com/wp-content/uploads/2015/10/avatar-2.jpg" class="img-circle img-responsive m-x-auto d-block">
+                                </div>
+
+                                <h6 class="text-center small"><strong>Heather Hollick</strong></h6>
+
+                                <p class="text-center small user-role">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A animi autem cupiditate</p>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4">
+                            <div class="card-wrapper user-card waves-light waves-effect waves-light">
+                                <div class="avatar media ">
+                                    <img alt="alt" src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-2.jpg" class="img-circle img-responsive m-x-auto d-block">
+                                </div>
+
+                                <h6 class="text-center small"><strong>Heather Hollick</strong></h6>
+
+                                <p class="text-center small user-role">MS in Mathematics, MBA (Berkeley), Mensa, aficionado of all things interesting</p>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4">
+                            <div class="card-wrapper user-card waves-light waves-effect waves-light">
+                                <div class="avatar media ">
+                                    <img alt="alt" src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-1.jpg" class="img-circle img-responsive m-x-auto d-block">
+                                </div>
+
+                                <h6 class="text-center small"><strong>Heather Hollick</strong></h6>
+
+                                <p class="text-center small user-role">MS in Mathematics, MBA (Berkeley), Mensa, aficionado of all things interesting</p>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4">
+                            <div class="card-wrapper user-card waves-light waves-effect waves-light">
+                                <div class="avatar media ">
+                                    <img alt="alt" src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-1.jpg" class="img-circle img-responsive m-x-auto d-block">
+                                </div>
+
+                                <h6 class="text-center small"><strong>Heather Hollick</strong></h6>
+
+                                <p class="text-center small user-role">MS in Mathematics</p>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4">
+                            <div class="card-wrapper user-card waves-light waves-effect waves-light">
+
+                                <div class="avatar media ">
+                                    <img alt="alt" src="http://mdbootstrap.com/wp-content/uploads/2015/10/avatar-2.jpg" class="img-circle img-responsive m-x-auto d-block">
+                                </div>
+
+                                <h6 class="text-center small"><strong>Heather Hollick</strong></h6>
+
+                                <p class="text-center small user-role">MS in Mathematics, MBA (Berkeley), Mensa, aficionado of all things interesting</p>
+
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4">
+                            <div class="card-wrapper user-card waves-light waves-effect waves-light">
+                                <div class="avatar media ">
+                                    <img alt="alt" src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-2.jpg" class="img-circle img-responsive m-x-auto d-block">
+                                </div>
+
+                                <h6 class="text-center small"><strong>Heather Hollick</strong></h6>
+
+                                <p class="text-center small user-role">MS in Mathematics, MBA (Berkeley), Mensa, aficionado of all things interesting</p>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4">
+                            <div class="card-wrapper user-card waves-light waves-effect waves-light">
+
+                                <div class="avatar media ">
+                                    <img alt="alt" src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-1.jpg" class="img-circle img-responsive m-x-auto d-block">
+                                </div>
+
+                                <h6 class="text-center small"><strong>Heather Hollick</strong></h6>
+
+                                <p class="text-center small user-role">MS in Mathematics, MBA (Berkeley), Mensa, aficionado of all things interesting</p>
+
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4">
+                            <div class="card-wrapper user-card waves-light waves-effect waves-light">
+
+                                <div class="avatar media ">
+                                    <img alt="alt" src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-1.jpg" class="img-circle img-responsive m-x-auto d-block">
+                                </div>
+
+                                <h6 class="text-center small"><strong>Heather Hollick</strong></h6>
+
+                                <p class="text-center small user-role">MS in Mathematics, MBA (Berkeley), Mensa, aficionado of all things interesting</p>
+
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4">
+                            <div class="card-wrapper user-card waves-light waves-effect waves-light">
+
+                                <div class="avatar media ">
+                                    <img alt="alt" src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-1.jpg" class="img-circle img-responsive m-x-auto d-block">
+                                </div>
+
+                                <h6 class="text-center small"><strong>Heather Hollick</strong></h6>
+
+                                <p class="text-center small user-role">MS in Mathematics, MBA (Berkeley), Mensa, aficionado of all things interesting</p>
+
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4">
+                            <div class="card-wrapper user-card waves-light waves-effect waves-light">
+
+                                <div class="avatar media ">
+                                    <img alt="alt" src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-1.jpg" class="img-circle img-responsive m-x-auto d-block">
+                                </div>
+
+                                <h6 class="text-center small"><strong>Heather Hollick</strong></h6>
+
+                                <p class="text-center small user-role">MS in Mathematics, MBA (Berkeley), Mensa, aficionado of all things interesting</p>
+
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4">
+                            <div class="card-wrapper user-card waves-light waves-effect waves-light">
+
+                                <div class="avatar media ">
+                                    <img alt="alt" src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-1.jpg" class="img-circle img-responsive m-x-auto d-block">
+                                </div>
+
+                                <h6 class="text-center small"><strong>Heather Hollick</strong></h6>
+
+                                <p class="text-center small user-role">MS in Mathematics, MBA (Berkeley), Mensa, aficionado of all things interesting</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Footer-->
+                <div class="modal-footer">
+                </div>
+            </div>
+            <!--/.Content-->
+        </div>
+    </div>
+
+    <div class="modal fade" id="mediaModal" tabindex="-1" role="dialog" aria-labelledby="mediaModal" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <!--Content-->
+            <div class="modal-content z-depth-2">
+                <!--Header-->
+
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <!--Body-->
+                <div class="modal-body">
+                    <div class="row">
+                        <!--Registration-->
+                        <div class="col-md-6 left-registration" style="border-right: 1px solid #e7e7e7;">
+                            <div class="img-ready z-depth-1">
+                                <img src="img/inf1.jpg" alt="">
+                            </div>
+
+                            <h5 style="" class="question-title" id="questionTitle">
+                                <span>Do we have to do a lot of still life sketching to improve on drawing and shading before trying with water color drawing and landscape?</span>
+                                <a id="editQuestion" href="#" class="inline-edit">Edit</a>
+                            </h5>
+
+                            <form id="questionForm" class="question-form" style="display: none; margin-bottom: 30px;">
+
+                                <input id="questionInput" type="text" value="Do we have to do a lot of still life sketching to improve on drawing and shading before trying with water color drawing and landscape?">
+                                <button type="submit" class="btn">Ok</button>
+                            </form>
+                        </div>
+
+                        <div class="col-md-6 left-registration" style="">
+                            <h5 style="" class="question-title">Choose topic</h5>
+                            <input id="chooseTopicInput" type="text" value="" class="choose-topic-input" placeholder="Topic name">
+                            <h5 style="" class="question-title">Recommended topics</h5>
+                            <ul class="recommend-topics">
+                                <li>
+                                    <a href="#">Self Developement</a>
+                                </li>
+                                <li>
+                                    <a href="#">Music</a>
+                                </li>
+                                <li>
+                                    <a href="#">Cinema</a>
+                                </li>
+                                <li>
+                                    <a href="#">Super topic</a>
+                                </li>
+                                <li>
+                                    <a href="#">Self and not self dev</a>
+                                </li>
+                            </ul>
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <a href="#" class="btn danger-color" style="float: left;">
+                                        Cancel
+                                    </a>
+
+                                    <a href="#" class="btn info-color" style="float: right;">
+                                        Ok
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <!--Footer-->
+                <div class="modal-footer" style="border-top: 1px solid lightgray;">
+                    <!--<button type="button" class="btn btn-primary">Submit answer</button>-->
+                    <div class="row">
+                    </div>
+                </div>
+            </div>
+            <!--/.Content-->
+        </div>
+    </div>
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/tether.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+
+    <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
+
+    <script type="text/javascript" src="js/main.js"></script>
+
+
+</body>
+
+</html>

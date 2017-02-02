@@ -1,0 +1,1155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Visinly</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Template styles -->
+    <style rel="stylesheet">
+        /* TEMPLATE STYLES */
+
+        main {
+            padding-top: 3rem;
+            padding-bottom: 2rem;
+        }
+
+        .widget-wrapper {
+            padding-bottom: 2rem;
+            border-bottom: 1px solid #e0e0e0;
+            margin-bottom: 2rem;
+        }
+
+        .reviews {
+            text-align: center;
+            border-top: 1px solid #e0e0e0;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 1rem;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .price {
+            position: absolute;
+            left: 0;
+            top: 0;
+            margin-top: -2px;
+        }
+
+        .price .tag {
+            margin: 0;
+        }
+    </style>
+
+</head>
+
+<body class="home-page">
+
+
+<header>
+
+    <!--Navbar-->
+    <nav class="navbar">
+        <div class="container">
+            <!--Collapse content-->
+            <div class="left-nav" id="">
+                <!--Navbar Brand-->
+                <a class="navbar-brand" href="#" onclick="return false;" style="cursor: default;">
+                    <h1 style="margin: 0; font-size: 1em; line-height: 1em;">
+                        <!--<p id="icon" style="text-shadow: rgb(48, 117, 165) 0px 0px 0px, rgb(48, 118, 166) 1px 1px 0px, rgb(49, 120, 168) 2px 2px 0px, rgb(49, 121, 170) 3px 3px 0px, rgb(50, 122, 172) 4px 4px 0px, rgb(50, 124, 174) 5px 5px 0px, rgb(51, 125, 176) 6px 6px 0px, rgb(52, 127, 178) 7px 7px 0px, rgb(52, 128, 180) 8px 8px 0px, rgb(53, 129, 182) 9px 9px 0px, rgb(53, 131, 184) 10px 10px 0px, rgb(54, 132, 186) 11px 11px 0px, rgb(54, 134, 188) 12px 12px 0px, rgb(55, 135, 190) 13px 13px 0px, rgb(56, 136, 192) 14px 14px 0px, rgb(56, 138, 194) 15px 15px 0px, rgb(57, 139, 196) 16px 16px 0px, rgb(57, 141, 198) 17px 17px 0px, rgb(58, 142, 200) 18px 18px 0px, rgb(58, 143, 202) 19px 19px 0px, rgb(59, 145, 204) 20px 20px 0px, rgb(60, 146, 206) 21px 21px 0px, rgb(60, 148, 208) 22px 22px 0px, rgb(61, 149, 210) 23px 23px 0px, rgb(61, 150, 212) 24px 24px 0px, rgb(62, 152, 213) 25px 25px 0px, rgb(62, 153, 215) 26px 26px 0px, rgb(63, 154, 217) 27px 27px 0px, rgb(63, 156, 219) 28px 28px 0px, rgb(64, 157, 221) 29px 29px 0px, rgb(65, 159, 223) 30px 30px 0px, rgb(65, 160, 225) 31px 31px 0px, rgb(66, 161, 227) 32px 32px 0px, rgb(66, 163, 229) 33px 33px 0px, rgb(67, 164, 231) 34px 34px 0px, rgb(67, 166, 233) 35px 35px 0px; font-size: 32px; color: rgb(255, 255, 255); height: 44px; overflow: hidden; margin-bottom: 0; width: 126px; line-height: 44px; border-radius: 5px; text-align: center; background-color: rgb(68, 167, 235);">Viqiery</p>-->
+                        <img src="img/logo.png" alt="Visinly" title="Visinly"/>
+                    </h1>
+                    <!--<p id="icon" style="font-size: 32px; color: #595a5a; height: 44px; overflow: hidden; margin-bottom: 0; width: 126px; line-height: 44px; border-radius: 0; text-align: left; background-color: #ffffff;"> Visinly </p>-->
+                </a>
+            </div>
+
+            <div class="right-nav">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item item-highlighted">
+                        <a class="nav-link" data-toggle="modal" data-target="#signupModal">Become a Content Creator</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">How it works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="modal" data-target="#signupModal">Sign up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="modal" data-target="#loginModal">Log in</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--/.Navbar-->
+</header>
+
+<main>
+
+    <!--Main layout-->
+    <div class="container-fluid subheader-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 right-side">
+                    <h2 class="h2-responsive text-center side-title">Provide or get visual answers on your professional topic</h2>
+                    <h3 class="side-subtitle">Use infographics, screenshots, pictures, presentation, video</h3>
+                </div>
+
+                <div class="col-md-8 offset-md-2">
+                    <div class="md-form input-group main-search-form">
+                        <input type="text" id="mainSearch" class="form-control" placeholder="Search for..." autocomplete="off">
+                        <!--<label for="mainSearch" class="" data-error="wrong" data-success="">Search for...</label>-->
+                        <button class="btn btn-primary btn-lg" type="button">Go!</button>
+
+                        <div class="search-tooltip z-depth-1">
+
+                            <p class="tooltip-nores s-item">No results, try to find your question in the topics or add the new one</p>
+                            <a href="asd" class="related-topic-item s-item">Getting Smarter</a>
+                            <a href="asdf" class="related-topic-item s-item">Getting Rich</a>
+
+                            <a href="dd" class="search-item-found s-item">
+                                <span><span class="search-matched">How to get smarter</span></span>
+                                <span class="related-topic-item">Topic: Getting Smarter</span>
+                            </a>
+                            <a href="dd" class="search-item-found s-item">
+                                <span><span class="search-matched">How to get smart</span> as Einstein</span>
+                                <span class="related-topic-item">Topic: Getting Smarter</span>
+                            </a>
+                            <a href="dd" class="search-item-found-parts s-item">
+                                <span><span class="search-matched">How to get</span> more friends and other things more friends and other things more friends and other things</span>
+                                <span class="related-topic-item">Topic: Some other topic</span>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container main-content" ng-app="visinly-topic">
+        <div class="row" ng-controller="QuestionsCtrl">
+            <div class="col-xl-9 col-lg-10 col-md-12 col-sm-12 right-side" autoscroll-content load-more="loadMore()">
+                <div class="row cards-answers">
+                    <style>
+                        .overlay-loader {
+                            /*position: fixed;*/
+                            /*left: 0;*/
+                            /*right: 0;*/
+                            /*top: 0;*/
+                            /*bottom: 0;*/
+                            width: 100%;
+                            height: 150px;
+                            /*background: white;*/
+                            overflow: hidden;
+                            z-index: -1;
+                            opacity: 0;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+
+                        .overlay-loader img {
+
+                        }
+
+                        .__loading .overlay-loader {
+                            opacity: 0.75;
+                            z-index: 1000;
+                            -webkit-transition: 0.15s linear;
+                            -moz-transition: 0.15s linear;
+                            -ms-transition: 0.15s linear;
+                            -o-transition: 0.15s linear;
+                            transition: 0.15s linear;
+                        }
+
+                        #qCardsGrid1 {
+                            -webkit-transition: 0.15s linear;
+                            -moz-transition: 0.15s linear;
+                            -ms-transition: 0.15s linear;
+                            -o-transition: 0.15s linear;
+                            transition: 0.15s linear;
+                            overflow: hidden;
+                        }
+                    </style>
+
+                    <div class="" id="qCardsGrid1">
+                        <div class="q-cards-sizer"></div>
+
+                        <!--Card-->
+                        <div class="question-card" ng-repeat="question in questions" ng-cloak ng-style="{'opacity': firstLoad ? 0 : 1 }">
+                            <div class="card card-red">
+
+                                <div class="qcard-header">
+                                    <a href ng-href="{{'http://dev1.visinly.com/ask/'+question.slug}}">
+                                        <h6 class="card-title small" ng-bind="question.text"></h6>
+                                    </a>
+
+                                    <ul class="card-tags">
+                                        <li class="tag-item" ng-repeat="topic in question.topics">
+                                            <a href
+                                               ng-href="{{ 'http://dev1.visinly.com/topic/' + topic.slug }}"
+                                               ng-bind="topic.title">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <!--Card image-->
+                                <div class="view overlay hm-white-slight">
+                                    <img class="img-fluid"
+                                         ng-src="{{ 'http://dev1.visinly.com/media/thumb?file=' + question.answer.media}}"
+                                         alt="question.text"
+                                         ng-if="question.answer && question.answer.media">
+                                    <a href ng-href="{{'http://dev1.visinly.com/ask/'+question.slug}}">
+                                        <div class="mask waves-effect waves-light"></div>
+                                    </a>
+                                </div>
+                                <!--/.Card image-->
+
+                                <div class="qcard-footer">
+                                    <!--Card content-->
+                                    <div class="card-block">
+                                        <a class="media-left" href ng-href="{{ 'http://dev1.visinly.com/user/' + question.user.slug }}">
+                                            <img ng-src="{{ 'http://dev1.visinly.com' + question.user.avatar }}"
+                                                 class="img-circle question-author z-depth-2">
+                                        </a>
+
+                                        <!--Title-->
+                                        <div class="media-body">
+                                            <h6 class="card-title small">
+                                                <a href
+                                                   ng-href="{{ 'http://dev1.visinly.com/profile/' + question.user.slug }}"
+                                                   ng-bind="question.user.name">
+                                                </a>
+                                            </h6>
+                                            <!--Text-->
+                                            <p class="card-text small" ng-bind="question.user.position"></p>
+                                            <!--<p class="card-text small">Do we have to do a lot of still life sketching to improve on drawing and shading before trying with water color drawing and landscape?</p>-->
+                                            <div class="counters">
+                                                <div class="likes">
+                                                    <p>435</p>
+                                                    <i class="fa fa-heart"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--/.Card content-->
+                                </div>
+                            </div>
+                        </div><!--Card-->
+                    </div>
+                    <div class="overlay-loader">
+                        <img src="img/loader.gif" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-2 col-md-12 col-sm-12 left-side">
+                <div class="row user-cards-list">
+                    <div class="col-xl-6 col-lg-12 col-md-3 col-sm-4">
+                        <div class="card-wrapper user-card waves-light">
+
+                            <div class="avatar media ">
+                                <img src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-1.jpg"
+                                     class="img-circle img-responsive m-x-auto d-block">
+                            </div>
+
+                            <h6 class="text-center small"><strong>Heather Hollick</strong></h6>
+
+                            <p class="text-center small user-role">MS in Mathematics, MBA (Berkeley), Mensa, aficionado of all things interesting</p>
+
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 col-lg-12 col-md-3 col-sm-4">
+                        <div class="card-wrapper user-card waves-light">
+
+                            <div class="avatar media ">
+                                <img src="http://mdbootstrap.com/wp-content/uploads/2015/10/avatar-2.jpg"
+                                     class="img-circle img-responsive m-x-auto d-block">
+                            </div>
+
+                            <h6 class="text-center small"><strong>Heather Hollick</strong></h6>
+
+                            <p class="text-center small user-role">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A animi autem cupiditate</p>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 col-lg-12 col-md-3 col-sm-4">
+                        <div class="card-wrapper user-card waves-light">
+
+                            <div class="avatar media ">
+                                <img src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-2.jpg"
+                                     class="img-circle img-responsive m-x-auto d-block">
+                            </div>
+
+                            <h6 class="text-center small"><strong>Heather Hollick</strong></h6>
+
+                            <p class="text-center small user-role">MS in Mathematics, MBA (Berkeley), Mensa, aficionado of all things interesting</p>
+                            <!--<p class="text-center user-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quae, dolores dicta. </p>-->
+
+                            <!--<ul class="inline-ul text-center social-btns">-->
+                            <!--<li><a class="icons-sm fb-ic"><i class="fa fa-facebook"></i></a></li>-->
+                            <!--<li><a class="icons-sm tw-ic"><i class="fa fa-twitter"></i></a></li>-->
+                            <!--<li><a class="icons-sm gplus-ic"><i class="fa fa-google-plus"></i></a></li>-->
+                            <!--<li><a class="icons-sm li-ic"><i class="fa fa-linkedin"></i></a></li>-->
+                            <!--</ul>-->
+
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 col-lg-12 col-md-3 col-sm-4">
+                        <div class="card-wrapper user-card waves-light">
+
+                            <div class="avatar media ">
+                                <img src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-1.jpg"
+                                     class="img-circle img-responsive m-x-auto d-block">
+                            </div>
+
+                            <h6 class="text-center small"><strong>Heather Hollick</strong></h6>
+
+                            <p class="text-center small user-role">MS in Mathematics, MBA (Berkeley), Mensa, aficionado of all things interesting</p>
+                            <!--<p class="text-center user-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quae, dolores dicta. </p>-->
+
+                            <!--<ul class="inline-ul text-center social-btns">-->
+                            <!--<li><a class="icons-sm fb-ic"><i class="fa fa-facebook"></i></a></li>-->
+                            <!--<li><a class="icons-sm tw-ic"><i class="fa fa-twitter"></i></a></li>-->
+                            <!--<li><a class="icons-sm gplus-ic"><i class="fa fa-google-plus"></i></a></li>-->
+                            <!--<li><a class="icons-sm li-ic"><i class="fa fa-linkedin"></i></a></li>-->
+                            <!--</ul>-->
+
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 col-lg-12 col-md-3 col-sm-4">
+                        <div class="card-wrapper user-card waves-light">
+
+                            <div class="avatar media ">
+                                <img src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-1.jpg"
+                                     class="img-circle img-responsive m-x-auto d-block">
+                            </div>
+
+                            <h6 class="text-center small"><strong>Heather Hollick</strong></h6>
+
+                            <p class="text-center small user-role">MS in Mathematics</p>
+                            <!--<p class="text-center user-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quae, dolores dicta. </p>-->
+
+                            <!--<ul class="inline-ul text-center social-btns">-->
+                            <!--<li><a class="icons-sm fb-ic"><i class="fa fa-facebook"></i></a></li>-->
+                            <!--<li><a class="icons-sm tw-ic"><i class="fa fa-twitter"></i></a></li>-->
+                            <!--<li><a class="icons-sm gplus-ic"><i class="fa fa-google-plus"></i></a></li>-->
+                            <!--<li><a class="icons-sm li-ic"><i class="fa fa-linkedin"></i></a></li>-->
+                            <!--</ul>-->
+
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 col-lg-12 col-md-3 col-sm-4">
+                        <div class="card-wrapper user-card waves-light">
+
+                            <div class="avatar media ">
+                                <img src="http://mdbootstrap.com/wp-content/uploads/2015/10/avatar-2.jpg"
+                                     class="img-circle img-responsive m-x-auto d-block">
+                            </div>
+
+                            <h6 class="text-center small"><strong>Heather Hollick</strong></h6>
+
+                            <p class="text-center small user-role">MS in Mathematics, MBA (Berkeley), Mensa, aficionado of all things interesting</p>
+                            <!--<p class="text-center user-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quae, dolores dicta. </p>-->
+
+                            <!--<ul class="inline-ul text-center social-btns">-->
+                            <!--<li><a class="icons-sm fb-ic"><i class="fa fa-facebook"></i></a></li>-->
+                            <!--<li><a class="icons-sm tw-ic"><i class="fa fa-twitter"></i></a></li>-->
+                            <!--<li><a class="icons-sm gplus-ic"><i class="fa fa-google-plus"></i></a></li>-->
+                            <!--<li><a class="icons-sm li-ic"><i class="fa fa-linkedin"></i></a></li>-->
+                            <!--</ul>-->
+
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 col-lg-12 col-md-3 col-sm-4">
+                        <div class="card-wrapper user-card waves-light">
+
+                            <div class="avatar media ">
+                                <img src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-2.jpg"
+                                     class="img-circle img-responsive m-x-auto d-block">
+                            </div>
+
+                            <h6 class="text-center small"><strong>Heather Hollick</strong></h6>
+
+                            <p class="text-center small user-role">MS in Mathematics, MBA (Berkeley), Mensa, aficionado of all things interesting</p>
+                            <!--<p class="text-center user-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quae, dolores dicta. </p>-->
+
+                            <!--<ul class="inline-ul text-center social-btns">-->
+                            <!--<li><a class="icons-sm fb-ic"><i class="fa fa-facebook"></i></a></li>-->
+                            <!--<li><a class="icons-sm tw-ic"><i class="fa fa-twitter"></i></a></li>-->
+                            <!--<li><a class="icons-sm gplus-ic"><i class="fa fa-google-plus"></i></a></li>-->
+                            <!--<li><a class="icons-sm li-ic"><i class="fa fa-linkedin"></i></a></li>-->
+                            <!--</ul>-->
+
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 col-lg-12 col-md-3 col-sm-4">
+                        <div class="card-wrapper user-card waves-light">
+
+                            <div class="avatar media ">
+                                <img src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-1.jpg"
+                                     class="img-circle img-responsive m-x-auto d-block">
+                            </div>
+
+                            <h6 class="text-center small"><strong>Heather Hollick</strong></h6>
+
+                            <p class="text-center small user-role">MS in Mathematics, MBA (Berkeley), Mensa, aficionado of all things interesting</p>
+                            <!--<p class="text-center user-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quae, dolores dicta. </p>-->
+
+                            <!--<ul class="inline-ul text-center social-btns">-->
+                            <!--<li><a class="icons-sm fb-ic"><i class="fa fa-facebook"></i></a></li>-->
+                            <!--<li><a class="icons-sm tw-ic"><i class="fa fa-twitter"></i></a></li>-->
+                            <!--<li><a class="icons-sm gplus-ic"><i class="fa fa-google-plus"></i></a></li>-->
+                            <!--<li><a class="icons-sm li-ic"><i class="fa fa-linkedin"></i></a></li>-->
+                            <!--</ul>-->
+
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 col-lg-12 col-md-3 col-sm-4">
+                        <div class="card-wrapper user-card waves-light">
+
+                            <div class="avatar media ">
+                                <img src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-1.jpg"
+                                     class="img-circle img-responsive m-x-auto d-block">
+                            </div>
+
+                            <h6 class="text-center small"><strong>Heather Hollick</strong></h6>
+
+                            <p class="text-center small user-role">MS in Mathematics, MBA (Berkeley), Mensa, aficionado of all things interesting</p>
+                            <!--<p class="text-center user-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quae, dolores dicta. </p>-->
+
+                            <!--<ul class="inline-ul text-center social-btns">-->
+                            <!--<li><a class="icons-sm fb-ic"><i class="fa fa-facebook"></i></a></li>-->
+                            <!--<li><a class="icons-sm tw-ic"><i class="fa fa-twitter"></i></a></li>-->
+                            <!--<li><a class="icons-sm gplus-ic"><i class="fa fa-google-plus"></i></a></li>-->
+                            <!--<li><a class="icons-sm li-ic"><i class="fa fa-linkedin"></i></a></li>-->
+                            <!--</ul>-->
+
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 col-lg-12 col-md-3 col-sm-4">
+                        <div class="card-wrapper user-card waves-light">
+
+                            <div class="avatar media ">
+                                <img src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-1.jpg"
+                                     class="img-circle img-responsive m-x-auto d-block">
+                            </div>
+
+                            <h6 class="text-center small"><strong>Heather Hollick</strong></h6>
+
+                            <p class="text-center small user-role">MS in Mathematics, MBA (Berkeley), Mensa, aficionado of all things interesting</p>
+                            <!--<p class="text-center user-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quae, dolores dicta. </p>-->
+
+                            <!--<ul class="inline-ul text-center social-btns">-->
+                            <!--<li><a class="icons-sm fb-ic"><i class="fa fa-facebook"></i></a></li>-->
+                            <!--<li><a class="icons-sm tw-ic"><i class="fa fa-twitter"></i></a></li>-->
+                            <!--<li><a class="icons-sm gplus-ic"><i class="fa fa-google-plus"></i></a></li>-->
+                            <!--<li><a class="icons-sm li-ic"><i class="fa fa-linkedin"></i></a></li>-->
+                            <!--</ul>-->
+
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 col-lg-12 col-md-3 col-sm-4">
+                        <div class="card-wrapper user-card waves-light">
+
+                            <div class="avatar media ">
+                                <img src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-1.jpg"
+                                     class="img-circle img-responsive m-x-auto d-block">
+                            </div>
+
+                            <h6 class="text-center small"><strong>Heather Hollick</strong></h6>
+
+                            <p class="text-center small user-role">MS in Mathematics, MBA (Berkeley), Mensa, aficionado of all things interesting</p>
+                            <!--<p class="text-center user-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quae, dolores dicta. </p>-->
+
+                            <!--<ul class="inline-ul text-center social-btns">-->
+                            <!--<li><a class="icons-sm fb-ic"><i class="fa fa-facebook"></i></a></li>-->
+                            <!--<li><a class="icons-sm tw-ic"><i class="fa fa-twitter"></i></a></li>-->
+                            <!--<li><a class="icons-sm gplus-ic"><i class="fa fa-google-plus"></i></a></li>-->
+                            <!--<li><a class="icons-sm li-ic"><i class="fa fa-linkedin"></i></a></li>-->
+                            <!--</ul>-->
+
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 col-lg-12 col-md-3 col-sm-4">
+                        <div class="card-wrapper user-card waves-light">
+
+                            <div class="avatar media ">
+                                <img src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-1.jpg"
+                                     class="img-circle img-responsive m-x-auto d-block">
+                            </div>
+
+                            <h6 class="text-center small"><strong>Heather Hollick</strong></h6>
+
+                            <p class="text-center small user-role">MS in Mathematics, MBA (Berkeley), Mensa, aficionado of all things interesting</p>
+                            <!--<p class="text-center user-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quae, dolores dicta. </p>-->
+
+                            <!--<ul class="inline-ul text-center social-btns">-->
+                            <!--<li><a class="icons-sm fb-ic"><i class="fa fa-facebook"></i></a></li>-->
+                            <!--<li><a class="icons-sm tw-ic"><i class="fa fa-twitter"></i></a></li>-->
+                            <!--<li><a class="icons-sm gplus-ic"><i class="fa fa-google-plus"></i></a></li>-->
+                            <!--<li><a class="icons-sm li-ic"><i class="fa fa-linkedin"></i></a></li>-->
+                            <!--</ul>-->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/.Main layout-->
+</main>
+
+<!--Footer-->
+<footer class="page-footer center-on-small-only primary-color-dark">
+
+    <!--Footer Links-->
+    <div class="container">
+        <div class="row">
+
+            <!--First column-->
+            <div class="col-xl-2 col-lg-2 col-md-12">
+                <a class="navbar-brand waves-effect waves-light" href="/">
+                    <img src="img/logo-w.png" alt="Visinly" title="Visinly"/>
+                    <!--<p id="icon" style="display: block; text-shadow: rgb(9, 50, 113) 0px 0px 0px, rgb(9, 52, 117) 1px 1px 0px, rgb(10, 54, 121) 2px 2px 0px, rgb(10, 56, 126) 3px 3px 0px, rgb(11, 57, 130) 4px 4px 0px, rgb(11, 59, 135) 5px 5px 0px, rgb(11, 61, 139) 6px 6px 0px, rgb(12, 63, 143) 7px 7px 0px, rgb(12, 65, 148) 8px 8px 0px, rgb(12, 67, 152) 9px 9px 0px, rgb(13, 69, 157) 10px 10px 0px; font-size: 32px; color: rgb(255, 255, 255); height: 44px; overflow: hidden; margin-bottom: 0; width: 126px; line-height: 44px; border-radius: 0; text-align: center; background-color: rgb(13, 71, 161); text-align: center;"> Visinly </p>-->
+                </a>
+            </div>
+            <!--/.First column-->
+
+            <!--Second column-->
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 offset-xl-1 offset-lg-1 offset-md-0">
+                <h6 class="title">Menu first</h6>
+                <ul>
+                    <li><a href="#" class="small">About</a></li>
+                    <li><a href="#" class="small">Privacy</a></li>
+                    <li><a href="#" class="small">Terms</a></li>
+                    <li><a href="#" class="small">Contact</a></li>
+                    <li><a href="#" class="small">Sitemap</a></li>
+                </ul>
+            </div>
+            <!--/.Second column-->
+
+            <!--Third column-->
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+                <h6 class="title">Menu second</h6>
+                <ul>
+                    <li><a href="#" class="small">About</a></li>
+                    <li><a href="#" class="small">Privacy</a></li>
+                    <li><a href="#" class="small">Terms</a></li>
+                    <li><a href="#" class="small">Contact</a></li>
+
+                </ul>
+            </div>                <!--/.Third column-->
+
+            <!--Fourth column-->
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+                <h6 class="title">Menu third</h6>
+                <ul>
+                    <li><a href="#" class="small">About</a></li>
+                    <li><a href="#" class="small">Privacy</a></li>
+                    <li><a href="#" class="small">Terms</a></li>
+                    <li><a href="#" class="small">Contact</a></li>
+                    <li><a href="#" class="small">Sitemap</a></li>
+
+                </ul>
+            </div>                <!--/.Fourth column-->
+
+
+            <div class="col-xl-2 col-lg-2 col-md-12 offset-xl-1 offset-lg-1 offset-md-0 copyright">
+                    <span class="small">
+                        © 2016 Copyright: <a href="#"> Visinly </a>
+                    </span>
+
+            </div>
+
+        </div>
+    </div>
+    <!--/.Footer Links-->
+
+</footer>
+<!--/.Footer-->
+
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <!--Content-->
+        <div class="modal-content z-depth-2">
+            <!--Header-->
+
+            <div class="modal-header" style="border: none;">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title text-center" id="myModalLabel">Go to sign up or login here</h4>
+            </div>
+            <!--Body-->
+            <div class="modal-body">
+
+
+                <div class="row">
+                    <!--Registration-->
+                    <div class="col-md-12 left-registration">
+                        <!--<div class="card subscription-card">-->
+                        <div class="subscription-card clearfix">
+                            <!--<div class="card-block">-->
+
+                            <!--Header-->
+                            <!--<p class="text-center"><strong>Go to sign up or login here</strong></p>-->
+
+                            <div class="row">
+
+
+                                <div class="col-lg-6 col-md-12 col-sm-12" style="padding-left: 30px;padding-right: 30px;">
+                                    <div class="text-xs-center clearfix">
+                                        <div class="clearfix col-md-12 col-sm-12 lnkdin-txt btn">
+                                            <a href="#"><p class="text-center">Get visual CV in 1 click</p></a>
+                                            <span class="free-label">FREE</span>
+                                        </div>
+
+
+
+                                        <button type="button" class="btn btn-li waves-effect waves-light col-md-12 col-sm-12"><i class="fa fa-linkedin left"></i> Continue with Linkedin</button>
+                                        <div class="clearfix col-md-12 col-sm-12">
+                                            <p class="divider-or">or</p>
+                                        </div>
+                                        <!--Facebook-->
+                                        <button type="button" class="btn btn-fb waves-effect waves-light col-md-12 col-sm-12"><i class="fa fa-facebook left"></i> Continue with Facebook</button>
+                                        <!--Google +-->
+                                        <button type="button" class="btn btn-gplus waves-effect waves-light col-md-12 col-sm-12"><i class="fa fa-google-plus left"></i> Continue with Google +</button>
+
+
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-12 col-sm-12 login-right" style="padding-left: 30px;padding-right: 30px;">
+                                    <div class="md-form">
+                                        <i class="fa fa-envelope prefix"></i>
+                                        <input type="email" id="form2" class="form-control validate">
+                                        <label for="form2" class="" data-error="" data-success="">Your email</label>
+                                    </div>
+
+                                    <div class="md-form">
+                                        <i class="fa fa-lock prefix"></i>
+                                        <input type="password" id="form4" class="form-control validate">
+                                        <label for="form4" class="" data-error="wrong" data-success="">Your password</label>
+                                    </div>
+
+                                    <div class="text-xs-center clearfix">
+                                        <button
+                                                class="login-btn btn btn-deep-purple waves-effect waves-light col-md-6 md-offset-6 col-sm-12">Login</button>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!--</div>-->
+                        </div>
+                    </div>
+
+                    <!--Social registration-->
+                    <!--<div class="col-md-12 right-registration">-->
+                    <!--&lt;!&ndash;<div class="widget-wrapper">&ndash;&gt;-->
+
+
+                    <!--<div class="card subscription-card">-->
+                    <!--<div class="card-block">-->
+                    <!--<p class="text-center"><strong>Get visual CV for free</strong></p>-->
+                    <!--&lt;!&ndash;<p>Once a week we will send you a summary of the most useful news</p>&ndash;&gt;-->
+                    <!--&lt;!&ndash;Linkedin&ndash;&gt;-->
+                    <!--<button type="button" class="btn btn-li waves-effect waves-light col-md-12"><i class="fa fa-linkedin left"></i> Continue with Linkedin</button>-->
+                    <!--&lt;!&ndash;Facebook&ndash;&gt;-->
+                    <!--<button type="button" class="btn btn-fb waves-effect waves-light col-md-12"><i class="fa fa-facebook left"></i> Continue with Facebook</button>-->
+                    <!--&lt;!&ndash;Google +&ndash;&gt;-->
+                    <!--<button type="button" class="btn btn-gplus waves-effect waves-light col-md-12"><i class="fa fa-google-plus left"></i> Continue with Google +</button>-->
+
+                    <!--<a href="#" class="text-center footer-text"><strong>or Register</strong></a>-->
+                    <!--</div>-->
+                    <!--</div>-->
+                    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                    <!--</div>-->
+                </div>
+
+
+            </div>
+            <!--Footer-->
+            <div class="modal-footer" style="border: none;">
+                <!--<button type="button" class="btn btn-primary">Submit answer</button>-->
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 text-md-left text-sm-left" style="padding-left: 30px;padding-right: 30px;">
+                        <a href="#" class="" data-toggle="modal" data-dismiss="modal" data-target="#recoveryModal"><strong>Forgot your password?</strong></a>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6 text-md-right text-sm-right" style="padding-left: 30px;padding-right: 30px;">
+                        <a href="#" class="" data-toggle="modal" data-dismiss="modal" data-target="#signupModal"><strong>Sign up</strong></a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <!--/.Content-->
+    </div>
+</div>
+
+<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <!--Content-->
+        <div class="modal-content  z-depth-2">
+            <!--Header-->
+
+            <div class="modal-header" style="border: none;">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title text-center">Go to sign up or login here</h4>
+            </div>
+            <!--Body-->
+            <div class="modal-body">
+
+
+                <div class="row">
+                    <!--Registration-->
+                    <div class="col-md-12 left-registration">
+                        <div class="subscription-card clearfix">
+                            <div class="row">
+
+                                <div class="col-lg-6 col-md-12 col-sm-12" style="padding-left: 30px;padding-right: 30px;">
+                                    <div class="text-xs-center clearfix">
+                                        <div class="clearfix col-md-12 col-sm-12 lnkdin-txt btn">
+                                            <a href="#"><p class="text-center">Get visual CV in 1 click</p></a>
+                                            <span class="free-label">FREE</span>
+                                        </div>
+
+
+
+                                        <button type="button" class="btn btn-li waves-effect waves-light col-md-12 col-sm-12"><i class="fa fa-linkedin left"></i> Continue with Linkedin</button>
+                                        <div class="clearfix col-md-12 col-sm-12">
+                                            <p class="divider-or">or</p>
+                                        </div>
+                                        <!--Facebook-->
+                                        <button type="button" class="btn btn-fb waves-effect waves-light col-md-12 col-sm-12"><i class="fa fa-facebook left"></i> Continue with Facebook</button>
+                                        <!--Google +-->
+                                        <button type="button" class="btn btn-gplus waves-effect waves-light col-md-12 col-sm-12"><i class="fa fa-google-plus left"></i> Continue with Google +</button>
+
+
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-12 col-sm-12 login-right" style="padding-left: 30px;padding-right: 30px;">
+                                    <div class="md-form">
+                                        <i class="fa fa-envelope prefix"></i>
+                                        <input type="email" id="form5" class="form-control validate">
+                                        <label for="form5" class="" data-error="" data-success="">Your email</label>
+                                    </div>
+
+                                    <div class="md-form">
+                                        <i class="fa fa-lock prefix"></i>
+                                        <input type="password" id="form6" class="form-control validate">
+                                        <label for="form6" class="" data-error="wrong" data-success="">Your password</label>
+                                    </div>
+
+                                    <div class="text-xs-center clearfix">
+                                        <button id="sendSignUp"
+                                                class="login-btn btn btn-deep-purple waves-effect waves-light col-md-6 md-offset-6 col-sm-12">Sign up</button>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!--</div>-->
+                        </div>
+                    </div>
+
+                    <!--Social registration-->
+                    <!--<div class="col-md-12 right-registration">-->
+                    <!--&lt;!&ndash;<div class="widget-wrapper">&ndash;&gt;-->
+
+
+                    <!--<div class="card subscription-card">-->
+                    <!--<div class="card-block">-->
+                    <!--<p class="text-center"><strong>Get visual CV for free</strong></p>-->
+                    <!--&lt;!&ndash;<p>Once a week we will send you a summary of the most useful news</p>&ndash;&gt;-->
+                    <!--&lt;!&ndash;Linkedin&ndash;&gt;-->
+                    <!--<button type="button" class="btn btn-li waves-effect waves-light col-md-12"><i class="fa fa-linkedin left"></i> Continue with Linkedin</button>-->
+                    <!--&lt;!&ndash;Facebook&ndash;&gt;-->
+                    <!--<button type="button" class="btn btn-fb waves-effect waves-light col-md-12"><i class="fa fa-facebook left"></i> Continue with Facebook</button>-->
+                    <!--&lt;!&ndash;Google +&ndash;&gt;-->
+                    <!--<button type="button" class="btn btn-gplus waves-effect waves-light col-md-12"><i class="fa fa-google-plus left"></i> Continue with Google +</button>-->
+
+                    <!--<a href="#" class="text-center footer-text"><strong>or Register</strong></a>-->
+                    <!--</div>-->
+                    <!--</div>-->
+                    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                    <!--</div>-->
+                </div>
+
+
+            </div>
+            <!--Footer-->
+            <div class="modal-footer" style="border: none;">
+                <!--<button type="button" class="btn btn-primary">Submit answer</button>-->
+                <div class="row">
+                    <!--<div class="col-md-6 col-sm-6 text-md-left text-sm-left" style="padding-left: 30px;padding-right: 30px;">-->
+                    <!--<a href="#" class="" data-toggle="modal" data-dismiss="modal" data-target="#recoveryModal"><strong>Forgot your password?</strong></a>-->
+                    <!--</div>-->
+
+                    <div class="col-md-6 offset-md-6 col-sm-6 offset-sm-6 text-md-right text-sm-right" style="padding-left: 30px;padding-right: 30px;">
+                        <a href="#" class="" data-toggle="modal" data-dismiss="modal"
+                           data-target="#loginModal"><strong>Login</strong></a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <!--/.Content-->
+    </div>
+</div>
+
+<div class="modal fade" id="signupModalStep2" tabindex="-1" role="dialog" aria-labelledby="signupModalStep2" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <!--Content-->
+        <div class="modal-content z-depth-2">
+            <!--Header-->
+
+
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <!--<h4 class="text-center">Thank you for registration!</h4>-->
+                <!--<br>-->
+
+                <h4 class="modal-title text-center" id="myModalLabel1" style="margin-bottom: 1em; color: orange;">Add Visinly buttons to your browser
+                    <span class="modal-subtitle" style="margin-top: 1em;">You can use them to answer the question, or for creation of your own knowledge base</span>
+                </h4>
+
+            </div>
+            <!--Body-->
+            <div class="modal-body">
+                <div class="row">
+                    <!--Registration-->
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 left-registration">
+                        <img src="img/addon_scrn.jpg" alt="" style="width: 100%;">
+                    </div>
+
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 left-registration" style="padding-top: 25px;">
+                        <p class="modal-subtitle spec-subtitle">To save <strong>knowledge in pictures</strong> from Internet with one click </p>
+                        <span class="spec-divider">OR</span>
+                        <p class="modal-subtitle spec-subtitle">To save <strong>screenshots</strong> from Internet of your computer with one click</p>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <!--Footer-->
+            <div class="modal-footer" style="border: none;">
+                <!--<button type="button" class="btn btn-primary">Submit answer</button>-->
+                <div class="row">
+                    <!--<div class="col-md-6 col-sm-6 text-md-left text-sm-left" style="padding-left: 30px;padding-right: 30px;">-->
+                    <!--<a href="#" class="" data-toggle="modal" data-dismiss="modal" data-target="#recoveryModal"><strong>Forgot your password?</strong></a>-->
+                    <!--</div>-->
+
+                    <div class="text-center">
+                        <a href="#" id="installExtension" class="btn danger-color btn-download" >Add Visinly buttons</a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <!--/.Content-->
+    </div>
+</div>
+
+<div class="modal fade" id="recoveryModal" tabindex="-1" role="dialog" aria-labelledby="recoveryModal" aria-hidden="true">
+    <div class="modal-dialog modal-md" role="document">
+        <!--Content-->
+        <div class="modal-content z-depth-2">
+            <!--Header-->
+
+            <div class="modal-header" style="border: none;">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title text-center">Recover your password</h4>
+            </div>
+            <!--Body-->
+            <div class="modal-body">
+
+
+                <div class="row">
+                    <!--Registration-->
+                    <div class="col-md-12 left-registration">
+                        <!--<div class="card subscription-card">-->
+                        <div class="subscription-card clearfix">
+                            <!--<div class="card-block">-->
+
+                            <!--Header-->
+                            <!--<p class="text-center"><strong>Go to sign up or login here</strong></p>-->
+
+                            <div class="md-form">
+                                <i class="fa fa-envelope prefix"></i>
+                                <input type="email" id="form2" class="form-control validate">
+                                <label for="form2" class="" data-error="" data-success="">Your email</label>
+                            </div>
+
+                            <!--<div class="md-form">-->
+                            <!--<i class="fa fa-lock prefix"></i>-->
+                            <!--<input type="password" id="form4" class="form-control validate">-->
+                            <!--<label for="form4" class="" data-error="wrong" data-success="">Your password</label>-->
+                            <!--</div>-->
+
+                            <!--<div class="text-xs-center clearfix">-->
+                            <!--<button class="btn btn-deep-purple waves-effect waves-light col-md-12">Login</button>-->
+                            <!--<button type="button" class="btn btn-li waves-effect waves-light col-md-12"><i class="fa fa-linkedin left"></i> Continue with Linkedin</button>-->
+                            <!--&lt;!&ndash;Facebook&ndash;&gt;-->
+                            <!--<button type="button" class="btn btn-fb waves-effect waves-light col-md-12"><i class="fa fa-facebook left"></i> Continue with Facebook</button>-->
+                            <!--&lt;!&ndash;Google +&ndash;&gt;-->
+                            <!--<button type="button" class="btn btn-gplus waves-effect waves-light col-md-12"><i class="fa fa-google-plus left"></i> Continue with Google +</button>-->
+                            <!--</div>-->
+
+
+
+
+
+
+
+                            <!--</div>-->
+                        </div>
+                    </div>
+
+                    <!--Social registration-->
+                    <!--<div class="col-md-12 right-registration">-->
+                    <!--&lt;!&ndash;<div class="widget-wrapper">&ndash;&gt;-->
+
+
+                    <!--<div class="card subscription-card">-->
+                    <!--<div class="card-block">-->
+                    <!--<p class="text-center"><strong>Get visual CV for free</strong></p>-->
+                    <!--&lt;!&ndash;<p>Once a week we will send you a summary of the most useful news</p>&ndash;&gt;-->
+                    <!--&lt;!&ndash;Linkedin&ndash;&gt;-->
+                    <!--<button type="button" class="btn btn-li waves-effect waves-light col-md-12"><i class="fa fa-linkedin left"></i> Continue with Linkedin</button>-->
+                    <!--&lt;!&ndash;Facebook&ndash;&gt;-->
+                    <!--<button type="button" class="btn btn-fb waves-effect waves-light col-md-12"><i class="fa fa-facebook left"></i> Continue with Facebook</button>-->
+                    <!--&lt;!&ndash;Google +&ndash;&gt;-->
+                    <!--<button type="button" class="btn btn-gplus waves-effect waves-light col-md-12"><i class="fa fa-google-plus left"></i> Continue with Google +</button>-->
+
+                    <!--<a href="#" class="text-center footer-text"><strong>or Register</strong></a>-->
+                    <!--</div>-->
+                    <!--</div>-->
+                    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                    <!--</div>-->
+                </div>
+
+
+            </div>
+            <!--Footer-->
+            <div class="modal-footer" style="border: none;">
+                <!--<button type="button" class="btn btn-primary">Submit answer</button>-->
+                <!--<div class="row">-->
+                <!--<div class="col-md-6 text-md-left">-->
+                <!--<a href="#" class=""><strong>Forgot your password?</strong></a>-->
+                <!--</div>-->
+
+                <!--<div class="col-md-6 text-md-right">-->
+                <!--<a href="#" class=""><strong>Sign up</strong></a>-->
+                <!--</div>-->
+
+
+                <!--</div>-->
+
+                <button class="btn btn-deep-purple waves-effect waves-light col-md-12">Send</button>
+            </div>
+        </div>
+        <!--/.Content-->
+    </div>
+</div>
+
+<div class="modal fade" id="installModal" tabindex="-1" role="dialog" aria-labelledby="installModal" aria-hidden="true">
+    <div class="modal-dialog modal-sm" role="document">
+        <!--Content-->
+        <div class="modal-content z-depth-2">
+            <!--Header-->
+
+            <div class="modal-header" style="border: none;">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title text-center">
+                    <img src="img/logo.png" alt="Visinly" title="Visinly">
+                </h4>
+            </div>
+            <!--Body-->
+            <div class="modal-body">
+
+
+                <div class="row">
+                    <!--Registration-->
+                    <div class="col-md-12 left-registration">
+                        <!--<div class="card subscription-card">-->
+                        <div class="subscription-card clearfix text-center">
+                            Visinly will be shortly installed on your device
+                        </div>
+                    </div>
+
+                    <!--Social registration-->
+                    <!--<div class="col-md-12 right-registration">-->
+                    <!--&lt;!&ndash;<div class="widget-wrapper">&ndash;&gt;-->
+
+
+                    <!--<div class="card subscription-card">-->
+                    <!--<div class="card-block">-->
+                    <!--<p class="text-center"><strong>Get visual CV for free</strong></p>-->
+                    <!--&lt;!&ndash;<p>Once a week we will send you a summary of the most useful news</p>&ndash;&gt;-->
+                    <!--&lt;!&ndash;Linkedin&ndash;&gt;-->
+                    <!--<button type="button" class="btn btn-li waves-effect waves-light col-md-12"><i class="fa fa-linkedin left"></i> Continue with Linkedin</button>-->
+                    <!--&lt;!&ndash;Facebook&ndash;&gt;-->
+                    <!--<button type="button" class="btn btn-fb waves-effect waves-light col-md-12"><i class="fa fa-facebook left"></i> Continue with Facebook</button>-->
+                    <!--&lt;!&ndash;Google +&ndash;&gt;-->
+                    <!--<button type="button" class="btn btn-gplus waves-effect waves-light col-md-12"><i class="fa fa-google-plus left"></i> Continue with Google +</button>-->
+
+                    <!--<a href="#" class="text-center footer-text"><strong>or Register</strong></a>-->
+                    <!--</div>-->
+                    <!--</div>-->
+                    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                    <!--</div>-->
+                </div>
+
+
+            </div>
+            <!--Footer-->
+            <div class="modal-footer" style="border: none;">
+                <!--<button type="button" class="btn btn-primary">Submit answer</button>-->
+                <!--<div class="row">-->
+                <!--<div class="col-md-6 text-md-left">-->
+                <!--<a href="#" class=""><strong>Forgot your password?</strong></a>-->
+                <!--</div>-->
+
+                <!--<div class="col-md-6 text-md-right">-->
+                <!--<a href="#" class=""><strong>Sign up</strong></a>-->
+                <!--</div>-->
+                <button class="btn waves-effect waves-light col-md-12 btn-info" data-dismiss="modal">Ok</button>
+
+                <!--</div>-->
+
+
+            </div>
+        </div>
+        <!--/.Content-->
+    </div>
+</div>
+
+<!--<div class="row">-->
+<!--&lt;!&ndash;Registration&ndash;&gt;-->
+<!--<div class="col-md-12 left-registration">-->
+<!--<div class="card subscription-card">-->
+<!--<div class="card-block">-->
+
+<!--&lt;!&ndash;Header&ndash;&gt;-->
+<!--<p class="text-center"><strong>Go to sign up or login here</strong></p>-->
+
+<!--<div class="md-form">-->
+<!--<i class="fa fa-envelope prefix"></i>-->
+<!--<input type="email" id="form2" class="form-control validate">-->
+<!--<label for="form2" class="" data-error="" data-success="">Your email</label>-->
+<!--</div>-->
+
+<!--<div class="md-form">-->
+<!--<i class="fa fa-lock prefix"></i>-->
+<!--<input type="password" id="form4" class="form-control validate">-->
+<!--<label for="form4" class="" data-error="wrong" data-success="">Your password</label>-->
+<!--</div>-->
+
+<!--<div class="text-xs-center">-->
+<!--<button class="btn btn-deep-purple waves-effect waves-light col-md-12">Login</button>-->
+<!--<button type="button" class="btn btn-li waves-effect waves-light col-md-12"><i class="fa fa-linkedin left"></i> Continue with Linkedin</button>-->
+<!--&lt;!&ndash;Facebook&ndash;&gt;-->
+<!--<button type="button" class="btn btn-fb waves-effect waves-light col-md-12"><i class="fa fa-facebook left"></i> Continue with Facebook</button>-->
+<!--&lt;!&ndash;Google +&ndash;&gt;-->
+<!--<button type="button" class="btn btn-gplus waves-effect waves-light col-md-12"><i class="fa fa-google-plus left"></i> Continue with Google +</button>-->
+<!--</div>-->
+
+<!--<a href="#" class="text-center footer-text"><strong>Forgot your password?</strong></a>-->
+
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+
+<!--&lt;!&ndash;Social registration&ndash;&gt;-->
+<!--<div class="col-md-12 right-registration">-->
+<!--&lt;!&ndash;<div class="widget-wrapper">&ndash;&gt;-->
+
+
+<!--<div class="card subscription-card">-->
+<!--<div class="card-block">-->
+<!--<p class="text-center"><strong>Get visual CV for free</strong></p>-->
+<!--&lt;!&ndash;<p>Once a week we will send you a summary of the most useful news</p>&ndash;&gt;-->
+<!--&lt;!&ndash;Linkedin&ndash;&gt;-->
+<!--<button type="button" class="btn btn-li waves-effect waves-light col-md-12"><i class="fa fa-linkedin left"></i> Continue with Linkedin</button>-->
+<!--&lt;!&ndash;Facebook&ndash;&gt;-->
+<!--<button type="button" class="btn btn-fb waves-effect waves-light col-md-12"><i class="fa fa-facebook left"></i> Continue with Facebook</button>-->
+<!--&lt;!&ndash;Google +&ndash;&gt;-->
+<!--<button type="button" class="btn btn-gplus waves-effect waves-light col-md-12"><i class="fa fa-google-plus left"></i> Continue with Google +</button>-->
+
+<!--<a href="#" class="text-center footer-text"><strong>or Register</strong></a>-->
+<!--</div>-->
+<!--</div>-->
+<!--&lt;!&ndash;</div>&ndash;&gt;-->
+<!--</div>-->
+<!--</div>-->
+
+
+<!-- SCRIPTS -->
+<script src="app/build/lib/angular.min.js"></script>
+<!--<script src="app/build/lib/angular-ui-router.min.js"></script>-->
+<!--<script src="app/build/lib/angular-local-storage.min.js"></script>-->
+<script src="app/build/lib/angular-sanitize.min.js"></script>
+<script src="app/build/js/app.min.js"></script>
+
+<!-- JQuery -->
+<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="js/tether.min.js"></script>
+
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="js/mdb.min.js"></script>
+
+<script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
+
+<script type="text/javascript" src="js/main.js"></script>
+
+
+</body>
+
+</html>

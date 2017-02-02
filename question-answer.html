@@ -1,0 +1,2279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Visinly</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Template styles -->
+    <style rel="stylesheet">
+        /* TEMPLATE STYLES */
+
+        main {
+            padding-top: 3rem;
+            padding-bottom: 2rem;
+        }
+
+        .widget-wrapper {
+            padding-bottom: 2rem;
+            border-bottom: 1px solid #e0e0e0;
+            margin-bottom: 2rem;
+        }
+
+        .reviews {
+            text-align: center;
+            border-top: 1px solid #e0e0e0;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 1rem;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .price {
+            position: absolute;
+            left: 0;
+            top: 0;
+            margin-top: -2px;
+        }
+
+        .price .tag {
+            margin: 0;
+        }
+    </style>
+
+</head>
+
+<body class="question-page">
+
+
+<header>
+
+    <!--Navbar-->
+    <nav class="navbar">
+
+        <!-- Collapse button-->
+        <!--<button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#collapseEx">-->
+        <!--<i class="fa fa-bars"></i>-->
+        <!--</button>-->
+
+        <div class="container">
+
+            <!--Collapse content-->
+            <div class="left-nav">
+                <!--<button type="button" class="burger-btn">-->
+                <!--<div class="burger-wrapper">-->
+                <!--<div class="burger-icon">-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--</button>-->
+                <!--Navbar Brand-->
+                <a class="navbar-brand" href="#">
+	                <img src="img/logo.png" alt="V"/>
+                    <!--<p id="icon" style="text-shadow: rgb(48, 117, 165) 0px 0px 0px, rgb(48, 118, 166) 1px 1px 0px, rgb(49, 120, 168) 2px 2px 0px, rgb(49, 121, 170) 3px 3px 0px, rgb(50, 122, 172) 4px 4px 0px, rgb(50, 124, 174) 5px 5px 0px, rgb(51, 125, 176) 6px 6px 0px, rgb(52, 127, 178) 7px 7px 0px, rgb(52, 128, 180) 8px 8px 0px, rgb(53, 129, 182) 9px 9px 0px, rgb(53, 131, 184) 10px 10px 0px, rgb(54, 132, 186) 11px 11px 0px, rgb(54, 134, 188) 12px 12px 0px, rgb(55, 135, 190) 13px 13px 0px, rgb(56, 136, 192) 14px 14px 0px, rgb(56, 138, 194) 15px 15px 0px, rgb(57, 139, 196) 16px 16px 0px, rgb(57, 141, 198) 17px 17px 0px, rgb(58, 142, 200) 18px 18px 0px, rgb(58, 143, 202) 19px 19px 0px, rgb(59, 145, 204) 20px 20px 0px, rgb(60, 146, 206) 21px 21px 0px, rgb(60, 148, 208) 22px 22px 0px, rgb(61, 149, 210) 23px 23px 0px, rgb(61, 150, 212) 24px 24px 0px, rgb(62, 152, 213) 25px 25px 0px, rgb(62, 153, 215) 26px 26px 0px, rgb(63, 154, 217) 27px 27px 0px, rgb(63, 156, 219) 28px 28px 0px, rgb(64, 157, 221) 29px 29px 0px, rgb(65, 159, 223) 30px 30px 0px, rgb(65, 160, 225) 31px 31px 0px, rgb(66, 161, 227) 32px 32px 0px, rgb(66, 163, 229) 33px 33px 0px, rgb(67, 164, 231) 34px 34px 0px, rgb(67, 166, 233) 35px 35px 0px; font-size: 32px; color: rgb(255, 255, 255); height: 44px; overflow: hidden; margin-bottom: 0; width: 126px; line-height: 44px; border-radius: 5px; text-align: center; background-color: rgb(68, 167, 235);">Viqiery</p>-->
+                    <!--<p id="icon" style="font-size: 32px; color: #595a5a; height: 44px; overflow: hidden; margin-bottom: 0; width: 126px; line-height: 44px; border-radius: 0; text-align: center; background-color: #ffffff;"> Visinly </p>-->
+                </a>
+            </div>
+
+            <div class="mid-nav">
+                <form class="search-form-header" action="search.php">
+                    <input type="text" placeholder="Search for..." id="mainSearch">
+                    <button class="" type="submit">Go!</button>
+                    <div class="search-tooltip z-depth-1">
+
+                        <p class="tooltip-nores s-item">No results, try to find your question in the topics or add the new one</p>
+                        <a href="asd" class="related-topic-item s-item">Getting Smarter</a>
+                        <a href="asdf" class="related-topic-item s-item">Getting Rich</a>
+
+                        <a href="dd" class="search-item-found s-item">
+                            <span><span class="search-matched">How to get smarter</span></span>
+                            <span class="related-topic-item">Topic: Getting Smarter</span>
+                        </a>
+                        <a href="dd" class="search-item-found s-item">
+                            <span><span class="search-matched">How to get smart</span> as Einstein</span>
+                            <span class="related-topic-item">Topic: Getting Smarter</span>
+                        </a>
+                        <a href="dd" class="search-item-found-parts s-item">
+                            <span><span class="search-matched">How to get</span> more friends and other things</span>
+                            <span class="related-topic-item">Topic: Some other topic</span>
+                        </a>
+
+                    </div>
+                </form>
+            </div>
+
+            <div class="right-nav">
+                <a class="mob-btn" id="mobBtn">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </a>
+                <ul class="nav navbar-nav">
+                    <li class="nav-item item-highlighted">
+                        <a class="nav-link">Become a Content Creator</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">How it works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Sign up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Log in</a>
+                    </li>
+                    <li class="nav-item search-mob-btn">
+                        <a href="#" id="searchMobBtn" class=" waves-effect waves-light">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                <!--<a href="#" class="notifications">-->
+                <!--<i class="fa fa-bell" aria-hidden="true"></i>-->
+                <!--<span class="notification-num">1112</span>-->
+                <!--</a>-->
+                <!--<a href="#" class="hm-white-slight overlay view">-->
+                <!--<img src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-2.jpg" class="img-circle">-->
+                <!--<div class="mask waves-effect waves-light avatar-mask"></div>-->
+                <!--</a>-->
+
+
+
+
+            </div>
+
+        </div>
+
+    </nav>
+    <!--/.Navbar-->
+
+</header>
+
+<main>
+
+    <!--Main layout-->
+
+
+
+    <div class="container">
+
+
+        <div class="row" style="">
+            <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12 question-left-side">
+                <!--<div class="row topics-list">-->
+                    <!--<div class="col-md-12">-->
+                        <!--<a href="#" class="topic-item">Self development</a>-->
+                        <!--<a href="#" class="topic-item">SMM marketing</a>-->
+                        <!--<a href="#" class="topic-item">Neuroscience</a>-->
+                    <!--</div>-->
+
+                <!--</div>-->
+                <ul class="card-tags">
+                    <li class="tag-item">
+                        <a href="#">Getting Smarter</a>
+                    </li>
+                    <li class="tag-item">
+                        <a href="#">Smart People</a>
+                    </li>
+                    <li class="tag-item">
+                        <a href="#">Books</a>
+                    </li>
+                    <li class="tag-item">
+                        <a href="#">Self-Developement</a>
+                    </li>
+                    <li class="tag-item">
+                        <a href="#">Intelligence</a>
+                    </li>
+                    <li class="tag-item">
+                        <a href="#">+7</a>
+                    </li>
+                </ul>
+
+
+
+                <!--<div class="row author-line">-->
+                    <!--<div class="col-md-12 card-wrapper">-->
+                        <!--<div class="avatar media col-md-2">-->
+                            <!--<img src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-1.jpg"-->
+                                 <!--class="img-circle img-responsive m-x-auto d-block">-->
+                        <!--</div>-->
+
+                        <!--<div class="author-info col-md-10">-->
+                            <!--<h6 class="small"><strong>Heather Hollick</strong></h6>-->
+                            <!--<p class="small user-role">MS in Mathematics, MBA (Berkeley), Mensa, aficionado of all things interesting</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+
+
+                <br>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 style="padding-bottom: 30px;" class="question-title">Do we have to do a lot of still life sketching to improve on drawing and shading before trying with water color drawing and landscape?</h1>
+                        
+                    </div>
+
+                </div>
+                <div class="row question-body">
+
+
+                    <!--<p>Do we have to do a lot of still life sketching to improve on drawing and shading before trying with water color drawing and landscape? Do we have to do a lot of still life sketching to improve on drawing and shading before trying with water color drawing and landscape? Do we have to do a lot of still life sketching to improve on drawing and shading before trying with water color drawing and landscape?</p>-->
+
+                    <!--</div>-->
+
+                    <!--<hr>-->
+
+                    <div class="answer-btns col-md-12">
+                        <a href="#" class="answer-btn btn" data-toggle="modal" data-target="#chooseAnswer" data-title="Do we have to do a lot of still life sketching to improve on drawing and shading before trying with water color drawing and landscape?">Answer</a>
+                        <a href="#" class="answer-btn request-btn btn">Request</a>
+                        <a href="#" class="answer-btn txt-btn" style="margin-right: 0;">
+                            <span class="btn-name">Follow</span>
+                        </a>
+                        <a href="#" class="answer-btn txt-btn" data-toggle="modal" data-target="#questionFollowers">
+                            <span class="btn-label">9</span>
+                        </a>
+                        <!--<p class="text-md-right date">13 Oct 2016</p>-->
+
+                    </div>
+
+                    <div class="request-dropdown col-md-12">
+                        <div class="request-block">
+                            <h6 class="request-caption">Request Answers:</h6>
+
+                            <div class="request-item">
+                                <div class="request-thumb">
+                                    <a href="#">
+                                        <img alt="imgalt" src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-2.jpg"
+                                             class="img-circle">
+                                    </a>
+
+                                </div>
+
+
+                                <div class="request-body">
+                                    <h6 class="request-caption">
+	                                    <a href="#">Request From Visinly</a>
+                                    </h6>
+                                    <p class="request-txt">
+                                        We will distribute this question to writers, and notify you about new answers.
+                                    </p>
+                                </div>
+
+                                <div class="request-action">
+                                    <a href="#">+</a>
+                                </div>
+
+
+                            </div>
+                            <div class="request-item">
+                                <div class="request-thumb">
+                                    <a href="#">
+                                        <img alt="imgalt" src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-2.jpg"
+                                             class="img-circle">
+                                    </a>
+
+                                </div>
+
+
+                                <div class="request-body">
+                                    <h6 class="request-caption">
+                                    <a href="#">John John</a>
+                                    </h6>
+                                    <p class="request-txt">
+                                        We will distribute this question to writers, and notify you about new answers.
+                                    </p>
+                                </div>
+
+                                <div class="request-action">
+                                    <a href="#">+</a>
+                                </div>
+
+
+                            </div>
+                            <div class="request-item">
+                                <div class="request-thumb">
+                                    <a href="#">
+                                        <img alt="imgalt" src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-2.jpg"
+                                             class="img-circle">
+                                    </a>
+
+                                </div>
+
+
+                                <div class="request-body">
+                                    <h6 class="request-caption">
+	                                    <a href="#">John John</a>
+                                    </h6>
+                                    <p class="request-txt">
+                                        We will distribute this question to writers, and notify you about new answers.
+                                    </p>
+                                </div>
+
+                                <div class="request-action">
+                                    <a href="#">+</a>
+                                </div>
+
+
+                            </div>
+                            <div class="request-item">
+                                <div class="request-thumb">
+                                    <a href="#">
+                                        <img alt="imgalt" src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-2.jpg"
+                                             class="img-circle">
+                                    </a>
+
+                                </div>
+
+
+                                <div class="request-body">
+                                    <h6 class="request-caption">
+	                                    <a href="#">John John</a>
+                                    </h6>
+                                    <p class="request-txt">
+                                        We will distribute this question to writers, and notify you about new answers.
+                                    </p>
+                                </div>
+
+                                <div class="request-action">
+                                    <a href="#">+</a>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                <!--<div class="col-md-12">-->
+
+                <!--</div>-->
+
+
+
+
+
+
+                <div class="row question-answers">
+                    <div class="col-md-12">
+                        <p class="text-md-right" style="margin-bottom: 5px;">89 answers</p>
+                        <hr>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="answer-card">
+
+                            <div class="row author-line">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 card-wrapper">
+                                    <div class="avatar media col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                                        <img alt="imgalt" src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-2.jpg"
+                                             class="img-circle img-responsive m-x-auto d-block">
+                                        <p class="date text-center">13 Oct 2016</p>
+                                    </div>
+
+                                    <div class="author-info col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                                        <h6 class="small"><a href="#">Heather Hollick</a></h6>
+                                        <p class="small user-role">MS in Mathematics, MBA (Berkeley), Mensa, aficionado of all things interesting</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="row answer-img">
+                                <div class="col-md-12 text-center">
+	                                <div class="valid-wrapper video-content">
+		                                <button class="btn">Save</button>
+
+                                        <a href="#" class="video-block col-md-12 view overlay hm-white-slight">
+
+                                                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen=""></iframe>
+
+
+                                        </a>
+
+	                                </div>
+
+                                    <!--<p class="date text-center">13 Oct 2016</p>-->
+                                </div>
+                            </div>
+
+
+                            <a href="#" class="btn btn-info" style="margin-left: 0;">Upvote</a>
+                            <a href="#" class="answer-btn txt-btn comments-counter">
+                                <span class="btn-name">Comments</span>
+                                <span class="btn-label">150</span>
+                            </a>
+
+                            <div class="row comments-hidden">
+                                <div class="col-md-12">
+                                    <div class="comments-block">
+                                        <form action="send-comment.php" class="row">
+                                            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                                                <input type="text" class="" placeholder="Leave your comment">
+                                            </div>
+
+                                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                                                <input type="submit" value="Comment" class="btn btn-info send-comment success-color-dark">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr>
+                    </div>
+
+
+
+                    <div class="col-md-12">
+                        <div class="answer-card">
+
+                            <div class="row author-line">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 card-wrapper">
+                                    <div class="avatar media col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                                        <img alt="imgalt" src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-2.jpg"
+                                             class="img-circle img-responsive m-x-auto d-block">
+                                        <p class="date text-center">13 Oct 2016</p>
+                                    </div>
+
+                                    <div class="author-info col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                                        <h6 class="small"><a href="#">Heather Hollick</a></h6>
+                                        <p class="small user-role">MS in Mathematics, MBA (Berkeley), Mensa, aficionado of all things interesting</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="row answer-img">
+                                <div class="col-md-12 text-center">
+	                                <div class="valid-wrapper">
+                                        <button class="btn">Save</button>
+                                        <a href="#">
+                                            <img alt="imgalt" src="img/inf14.jpg" class="img-responsive">
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <a href="#" class="btn btn-info" style="margin-left: 0;">Upvote</a>
+                            <a href="#" class="answer-btn txt-btn comments-counter">
+                                <span class="btn-name">Comments</span>
+                                <span class="btn-label">150</span>
+                            </a>
+
+                            <div class="row comments-hidden">
+                                <div class="col-md-12">
+                                    <div class="comments-block">
+                                        <form action="send-comment.php" class="row">
+                                            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                                                <input type="text" class="" placeholder="Leave your comment">
+                                            </div>
+
+                                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                                                <input type="submit" value="Comment" class="btn btn-info send-comment success-color-dark">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr>
+                    </div>
+
+
+
+                    <div class="col-md-12">
+                        <div class="answer-card">
+
+                            <div class="row author-line">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 card-wrapper">
+                                    <div class="avatar media col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                                        <img alt="imgalt" src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-2.jpg"
+                                             class="img-circle img-responsive m-x-auto d-block">
+                                        <p class="date text-center">13 Oct 2016</p>
+                                    </div>
+
+                                    <div class="author-info col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                                        <h6 class="small"><a href="#">Heather Hollick</a></h6>
+                                        <p class="small user-role">MS in Mathematics, MBA (Berkeley), Mensa, aficionado of all things interesting</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="row answer-img">
+                                <div class="col-md-12 text-center">
+                                    <div class="valid-wrapper">
+                                        <button class="btn" onclick="alert('12');">Save</button>
+                                        <a href="#">
+                                            <img alt="imgalt" src="img/inf1.jpg" class="img-responsive">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <a href="#" class="btn btn-info" style="margin-left: 0;">Upvote</a>
+                            <a href="#" class="answer-btn txt-btn comments-counter">
+                                <span class="btn-name">Comments</span>
+                                <span class="btn-label">150</span>
+                            </a>
+
+                            <div class="row comments-hidden">
+                                <div class="col-md-12">
+                                    <div class="comments-block">
+                                        <form action="send-comment.php" class="row">
+                                            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                                                <input type="text" class="" placeholder="Leave your comment">
+                                            </div>
+
+                                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                                                <input type="submit" value="Comment" class="btn btn-info send-comment success-color-dark">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+	                    <hr/>
+                    </div>
+
+
+                </div>
+
+	            <div class="row user-topics-list">
+		            <div class="user-topic-item col-md-4" style="margin-top: 45px;">
+			            <div class="card-block z-depth-1">
+				            <a href="#" data-toggle="modal" data-target="#chooseAnswer">
+					            <i class="fa fa-plus-circle" aria-hidden="true"></i>
+				            </a>
+
+			            </div>
+			            <a href="#" class="topic-name" data-toggle="modal" data-target="#chooseAnswer">Add new answer</a>
+
+		            </div>
+	            </div>
+
+
+
+
+
+
+            </div>
+
+
+
+            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+
+
+	            <h2 class="text-center aside-title">Related questions</h2>
+
+
+                <div class="rel-questions-list">
+                    <a href="#">Will Hillary Clinton attempt to rig the election in her favor?</a>
+                    <a href="#">Why do some Sanders supporters that believe the DNC rigged the Democratic primary support Hillary Clinton?</a>
+                    <a href="#">What evidence supports the theory that the United States presidential elections are rigged?</a>
+                    <a href="#">What is the physical, verifiable, non-anecdotal evidence that the Democratic primary election process is "rigged"?</a>
+                    <a href="#">After Obama beat Clinton did Clinton supporters think the race had been rigged the way that Sanders supporters think the race has been rigged?...</a>
+                    <a href="#">Are the US elections rigged?</a>
+                    <a href="#">Why do many Sanders supporters profess their intent to explicitly support Trump by not voting for Clinton in the general election?</a>
+                    <a href="#">If Sanders endorses Jill Stein or refuses to support Clinton will Trump steal the general election?</a>
+                    <a href="#">Why does President Obama support Hillary Clinton in the 2016 presidential election?</a>
+                    <a href="#">Will any Bernie Sanders supporters vote for Hillary if she becomes the Democrat nominee?</a>
+                    <a href="question-list.html" style="display: inline-block; text-decoration: underline;">More...</a>
+                </div>
+
+	            <h2 class="text-center aside-title">Same questions</h2>
+
+	            <div class="rel-questions-list">
+		            <a href="#">Will Hillary Clinton attempt to rig the election in her favor?</a>
+		            <a href="#">Why do some Sanders supporters that believe the DNC rigged the Democratic primary support Hillary Clinton?</a>
+		            <a href="#">What evidence supports the theory that the United States presidential elections are rigged?</a>
+		            <a href="#">What is the physical, verifiable, non-anecdotal evidence that the Democratic primary election process is "rigged"?</a>
+		            <a href="#">After Obama beat Clinton did Clinton supporters think the race had been rigged the way that Sanders supporters think the race has been rigged?...</a>
+		            <a href="#">Are the US elections rigged?</a>
+		            <a href="#">Why do many Sanders supporters profess their intent to explicitly support Trump by not voting for Clinton in the general election?</a>
+		            <a href="#">If Sanders endorses Jill Stein or refuses to support Clinton will Trump steal the general election?</a>
+		            <a href="#">Why does President Obama support Hillary Clinton in the 2016 presidential election?</a>
+		            <a href="#">Will any Bernie Sanders supporters vote for Hillary if she becomes the Democrat nominee?</a>
+		            <a href="question-list.html" style="display: inline-block; text-decoration: underline;">More...</a>
+	            </div>
+
+
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="cards-answers related-list">
+                    <h2 class="text-center aside-title">Related questions</h2>
+                <div id="qCardsGrid">
+                    <div class="question-card">
+                        <div class="card card-red">
+
+                            <div class="qcard-header">
+                                <a href="#">
+                                    <h6 class="card-title small">Do we have to do a lot of still life sketching to improve on drawing and shading before trying with water color drawing and landscape?</h6>
+                                </a>
+
+                                <ul class="card-tags">
+                                    <li class="tag-item">
+                                        <a href="#">Getting Smarter</a>
+                                    </li>
+                                    <li class="tag-item">
+                                        <a href="#">Smart People</a>
+                                    </li>
+                                    <li class="tag-item">
+                                        <a href="#">Books</a>
+                                    </li>
+                                    <li class="tag-item">
+                                        <a href="#">Self-Developement</a>
+                                    </li>
+                                    <li class="tag-item">
+                                        <a href="#">Intelligence</a>
+                                    </li>
+                                    <li class="tag-item">
+                                        <a href="#">+7</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!--Card image-->
+                            <div class="view overlay hm-white-slight">
+                                <img class="img-fluid" src="img/inf1.jpg" alt="Card image cap">
+                                <a>
+                                    <div class="mask waves-effect waves-light"></div>
+                                </a>
+                            </div>
+                            <!--/.Card image-->
+
+                            <div class="qcard-footer">
+                                <!--Card content-->
+                                <div class="card-block">
+                                    <a class="media-left" href="#">
+                                        <img alt="imgalt" src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-2.jpg"
+                                             class="img-circle question-author z-depth-2">
+                                    </a>
+
+                                    <!--Title-->
+                                    <div class="media-body">
+                                        <h6 class="card-title small"><a href="#">Naomi Lulizera</a></h6>
+                                        <!--Text-->
+                                        <p class="card-text small">Artist, Entrepreneur, and a bunch of random other crap. Artist, Entrepreneur, Artist</p>
+                                        <!--<p class="card-text small">Do we have to do a lot of still life sketching to improve on drawing and shading before trying with water color drawing and landscape?</p>-->
+                                        <div class="counters">
+                                            <div class="likes">
+                                                <p>435</p>
+                                                <i class="fa fa-heart"></i>
+                                            </div>
+
+                                            <!--<div class="follows">-->
+                                            <!--<i class="fa fa-user"></i>-->
+                                            <!--<p>100500</p>-->
+                                            <!--</div>-->
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!--/.Card content-->
+
+                            </div>
+
+
+
+                        </div>
+                    </div><!--Card-->
+
+
+
+
+                    <div class="question-card">
+                        <div class="card card-orange">
+
+                            <div class="qcard-header">
+                                <a href="#">
+                                    <h6 class="card-title small">Do we have to do a lot of still life sketching to improve on drawing and shading before trying with water color drawing and landscape?</h6>
+                                </a>
+
+                                <ul class="card-tags">
+                                    <li class="tag-item">
+                                        <a href="#">Getting Smarter</a>
+                                    </li>
+                                    <li class="tag-item">
+                                        <a href="#">Smart People</a>
+                                    </li>
+                                    <li class="tag-item">
+                                        <a href="#">Books</a>
+                                    </li>
+                                    <li class="tag-item">
+                                        <a href="#">Self-Developement</a>
+                                    </li>
+                                    <li class="tag-item">
+                                        <a href="#">Intelligence</a>
+                                    </li>
+                                    <li class="tag-item">
+                                        <a href="#">+7</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!--Card image-->
+                            <div class="view overlay hm-white-slight">
+                                <img class="img-fluid" src="img/screen1.png" alt="Card image cap">
+                                <a>
+                                    <div class="mask waves-effect waves-light"></div>
+                                </a>
+                            </div>
+                            <!--/.Card image-->
+
+                            <div class="qcard-footer">
+                                <!--Card content-->
+                                <div class="card-block">
+                                    <a class="media-left" href="#">
+                                        <img alt="imgalt" src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-2.jpg"
+                                             class="img-circle question-author z-depth-2">
+                                    </a>
+
+                                    <!--Title-->
+                                    <div class="media-body">
+                                        <h6 class="card-title small"><a href="#">Naomi Lulizera</a></h6>
+                                        <!--Text-->
+                                        <p class="card-text small">Artist, Entrepreneur, and a bunch of random other crap. Artist, Entrepreneur, Artist</p>
+                                        <!--<p class="card-text small">Do we have to do a lot of still life sketching to improve on drawing and shading before trying with water color drawing and landscape?</p>-->
+                                        <div class="counters">
+                                            <div class="likes">
+                                                <p>435</p>
+                                                <i class="fa fa-heart"></i>
+                                            </div>
+
+                                            <!--<div class="follows">-->
+                                            <!--<i class="fa fa-user"></i>-->
+                                            <!--<p>100500</p>-->
+                                            <!--</div>-->
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!--/.Card content-->
+
+                            </div>
+
+
+
+                        </div>
+                    </div><!--Card-->
+
+
+
+                    <div class="question-card">
+                        <div class="card card-green">
+
+                            <div class="qcard-header">
+                                <a href="#">
+                                    <h6 class="card-title small">Do we have to do a lot of still life sketching to improve on drawing and shading before trying with water color drawing and landscape?</h6>
+                                </a>
+
+                                <ul class="card-tags">
+                                    <li class="tag-item">
+                                        <a href="#">Getting Smarter</a>
+                                    </li>
+                                    <li class="tag-item">
+                                        <a href="#">Smart People</a>
+                                    </li>
+                                    <li class="tag-item">
+                                        <a href="#">Books</a>
+                                    </li>
+                                    <li class="tag-item">
+                                        <a href="#">Self-Developement</a>
+                                    </li>
+                                    <li class="tag-item">
+                                        <a href="#">Intelligence</a>
+                                    </li>
+                                    <li class="tag-item">
+                                        <a href="#">+7</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!--Card image-->
+                            <div class="view overlay hm-white-slight">
+                                <img class="img-fluid" src="img/inf2.jpg" alt="Card image cap">
+                                <a>
+                                    <div class="mask waves-effect waves-light"></div>
+                                </a>
+                            </div>
+                            <!--/.Card image-->
+
+                            <div class="qcard-footer">
+                                <!--Card content-->
+                                <div class="card-block">
+                                    <a class="media-left" href="#">
+                                        <img alt="imgalt" src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-2.jpg"
+                                             class="img-circle question-author z-depth-2">
+                                    </a>
+
+                                    <!--Title-->
+                                    <div class="media-body">
+                                        <h6 class="card-title small"><a href="#">Naomi Lulizera</a></h6>
+                                        <!--Text-->
+                                        <p class="card-text small">Artist, Entrepreneur, and a bunch of random other crap. Artist, Entrepreneur, Artist</p>
+                                        <!--<p class="card-text small">Do we have to do a lot of still life sketching to improve on drawing and shading before trying with water color drawing and landscape?</p>-->
+                                        <div class="counters">
+                                            <div class="likes">
+                                                <p>435</p>
+                                                <i class="fa fa-heart"></i>
+                                            </div>
+
+                                            <!--<div class="follows">-->
+                                            <!--<i class="fa fa-user"></i>-->
+                                            <!--<p>100500</p>-->
+                                            <!--</div>-->
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!--/.Card content-->
+
+                            </div>
+
+
+
+                        </div>
+                    </div><!--Card-->
+
+                    <div class="question-card">
+                        <div class="card card-blue">
+
+                            <div class="qcard-header">
+                                <a href="#">
+                                    <h6 class="card-title small">Do we have to do a lot of still life sketching to improve on drawing and shading before trying with water color drawing and landscape?</h6>
+                                </a>
+
+                                <ul class="card-tags">
+                                    <li class="tag-item">
+                                        <a href="#">Getting Smarter</a>
+                                    </li>
+                                    <li class="tag-item">
+                                        <a href="#">Smart People</a>
+                                    </li>
+                                    <li class="tag-item">
+                                        <a href="#">Books</a>
+                                    </li>
+                                    <li class="tag-item">
+                                        <a href="#">Self-Developement</a>
+                                    </li>
+                                    <li class="tag-item">
+                                        <a href="#">Intelligence</a>
+                                    </li>
+                                    <li class="tag-item">
+                                        <a href="#">+7</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!--Card image-->
+                            <div class="view overlay hm-white-slight">
+                                <img class="img-fluid" src="img/inf3.jpg" alt="Card image cap">
+                                <a>
+                                    <div class="mask waves-effect waves-light"></div>
+                                </a>
+                            </div>
+                            <!--/.Card image-->
+
+                            <div class="qcard-footer">
+                                <!--Card content-->
+                                <div class="card-block">
+                                    <a class="media-left" href="#">
+                                        <img alt="imgalt" src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-2.jpg"
+                                             class="img-circle question-author z-depth-2">
+                                    </a>
+
+                                    <!--Title-->
+                                    <div class="media-body">
+                                        <h6 class="card-title small"><a href="#">Naomi Lulizera</a></h6>
+                                        <!--Text-->
+                                        <p class="card-text small">Artist, Entrepreneur, and a bunch of random other crap. Artist, Entrepreneur, Artist</p>
+                                        <!--<p class="card-text small">Do we have to do a lot of still life sketching to improve on drawing and shading before trying with water color drawing and landscape?</p>-->
+                                        <div class="counters">
+                                            <div class="likes">
+                                                <p>435</p>
+                                                <i class="fa fa-heart"></i>
+                                            </div>
+
+                                            <!--<div class="follows">-->
+                                            <!--<i class="fa fa-user"></i>-->
+                                            <!--<p>100500</p>-->
+                                            <!--</div>-->
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!--/.Card content-->
+
+                            </div>
+
+
+
+                        </div>
+                    </div><!--Card-->
+                    <div class="question-card">
+                        <div class="card card-marine">
+
+                            <div class="qcard-header">
+                                <a href="#">
+                                    <h6 class="card-title small">Do we have to do a lot of still life sketching to improve on drawing and shading before trying with water color drawing and landscape?</h6>
+                                </a>
+
+                                <ul class="card-tags">
+                                    <li class="tag-item">
+                                        <a href="#">Getting Smarter</a>
+                                    </li>
+                                    <li class="tag-item">
+                                        <a href="#">Smart People</a>
+                                    </li>
+                                    <li class="tag-item">
+                                        <a href="#">Books</a>
+                                    </li>
+                                    <li class="tag-item">
+                                        <a href="#">Self-Developement</a>
+                                    </li>
+                                    <li class="tag-item">
+                                        <a href="#">Intelligence</a>
+                                    </li>
+                                    <li class="tag-item">
+                                        <a href="#">+7</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!--Card image-->
+                            <div class="view overlay hm-white-slight">
+                                <img class="img-fluid" src="img/inf4.jpg" alt="Card image cap">
+                                <a>
+                                    <div class="mask waves-effect waves-light"></div>
+                                </a>
+                            </div>
+                            <!--/.Card image-->
+
+                            <div class="qcard-footer">
+                                <!--Card content-->
+                                <div class="card-block">
+                                    <a class="media-left" href="#">
+                                        <img alt="imgalt" src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-2.jpg"
+                                             class="img-circle question-author z-depth-2">
+                                    </a>
+
+                                    <!--Title-->
+                                    <div class="media-body">
+                                        <h6 class="card-title small"><a href="#">Naomi Lulizera</a></h6>
+                                        <!--Text-->
+                                        <p class="card-text small">Artist, Entrepreneur, and a bunch of random other crap. Artist, Entrepreneur, Artist</p>
+                                        <!--<p class="card-text small">Do we have to do a lot of still life sketching to improve on drawing and shading before trying with water color drawing and landscape?</p>-->
+                                        <div class="counters">
+                                            <div class="likes">
+                                                <p>435</p>
+                                                <i class="fa fa-heart"></i>
+                                            </div>
+
+                                            <!--<div class="follows">-->
+                                            <!--<i class="fa fa-user"></i>-->
+                                            <!--<p>100500</p>-->
+                                            <!--</div>-->
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!--/.Card content-->
+
+                            </div>
+
+
+
+                        </div>
+                    </div><!--Card-->
+
+
+                    <div class="question-card">
+                        <div class="card card-purple">
+
+                            <div class="qcard-header">
+                                <a href="#">
+                                    <h6 class="card-title small">Do we have to do a lot of still life sketching to improve on drawing and shading before trying with water color drawing and landscape?</h6>
+                                </a>
+
+                                <ul class="card-tags">
+                                    <li class="tag-item">
+                                        <a href="#">Getting Smarter</a>
+                                    </li>
+                                    <li class="tag-item">
+                                        <a href="#">Smart People</a>
+                                    </li>
+                                    <li class="tag-item">
+                                        <a href="#">Books</a>
+                                    </li>
+                                    <li class="tag-item">
+                                        <a href="#">Self-Developement</a>
+                                    </li>
+                                    <li class="tag-item">
+                                        <a href="#">Intelligence</a>
+                                    </li>
+                                    <li class="tag-item">
+                                        <a href="#">+7</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!--Card image-->
+                            <div class="view overlay hm-white-slight">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PjGkVCAo8Fw" allowfullscreen></iframe>
+                                </div>
+                                <a>
+                                    <div class="mask waves-effect waves-light"></div>
+                                </a>
+                            </div>
+                            <!--/.Card image-->
+
+                            <div class="qcard-footer">
+                                <!--Card content-->
+                                <div class="card-block">
+                                    <a class="media-left" href="#">
+                                        <img alt="imgalt" src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-2.jpg"
+                                             class="img-circle question-author z-depth-2">
+                                    </a>
+
+                                    <!--Title-->
+                                    <div class="media-body">
+                                        <h6 class="card-title small"><a href="#">Naomi Lulizera</a></h6>
+                                        <!--Text-->
+                                        <p class="card-text small">Artist, Entrepreneur, and a bunch of random other crap. Artist, Entrepreneur, Artist</p>
+                                        <!--<p class="card-text small">Do we have to do a lot of still life sketching to improve on drawing and shading before trying with water color drawing and landscape?</p>-->
+                                        <div class="counters">
+                                            <div class="likes">
+                                                <p>435</p>
+                                                <i class="fa fa-heart"></i>
+                                            </div>
+
+                                            <!--<div class="follows">-->
+                                            <!--<i class="fa fa-user"></i>-->
+                                            <!--<p>100500</p>-->
+                                            <!--</div>-->
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!--/.Card content-->
+
+                            </div>
+
+
+
+                        </div>
+                    </div><!--Card-->
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!--/.Main layout-->
+
+</main>
+
+<!--Footer-->
+<footer class="page-footer center-on-small-only primary-color-dark">
+
+    <!--Footer Links-->
+    <div class="container">
+        <div class="row">
+
+            <!--First column-->
+            <div class="col-xl-2 col-lg-2 col-md-12">
+                <a class="navbar-brand waves-effect waves-light" href="/">
+                    <img alt="imgalt" src="img/logo-w.png"/>
+                    <!--<p id="icon" style="display: block; text-shadow: rgb(9, 50, 113) 0px 0px 0px, rgb(9, 52, 117) 1px 1px 0px, rgb(10, 54, 121) 2px 2px 0px, rgb(10, 56, 126) 3px 3px 0px, rgb(11, 57, 130) 4px 4px 0px, rgb(11, 59, 135) 5px 5px 0px, rgb(11, 61, 139) 6px 6px 0px, rgb(12, 63, 143) 7px 7px 0px, rgb(12, 65, 148) 8px 8px 0px, rgb(12, 67, 152) 9px 9px 0px, rgb(13, 69, 157) 10px 10px 0px; font-size: 32px; color: rgb(255, 255, 255); height: 44px; overflow: hidden; margin-bottom: 0; width: 126px; line-height: 44px; border-radius: 0; text-align: center; background-color: rgb(13, 71, 161); text-align: center;"> Visinly </p>-->
+                </a>
+            </div>
+            <!--/.First column-->
+
+            <!--Second column-->
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 offset-xl-1 offset-lg-1 offset-md-0">
+                <h6 class="title">Menu first</h6>
+                <ul>
+                    <li><a href="#" class="small">About</a></li>
+                    <li><a href="#" class="small">Privacy</a></li>
+                    <li><a href="#" class="small">Terms</a></li>
+                    <li><a href="#" class="small">Contact</a></li>
+                    <li><a href="#" class="small">Sitemap</a></li>
+                </ul>
+            </div>
+            <!--/.Second column-->
+
+            <!--Third column-->
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+                <h6 class="title">Menu second</h6>
+                <ul>
+                    <li><a href="#" class="small">About</a></li>
+                    <li><a href="#" class="small">Privacy</a></li>
+                    <li><a href="#" class="small">Terms</a></li>
+                    <li><a href="#" class="small">Contact</a></li>
+
+                </ul>
+            </div>                <!--/.Third column-->
+
+            <!--Fourth column-->
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+                <h6 class="title">Menu third</h6>
+                <ul>
+                    <li><a href="#" class="small">About</a></li>
+                    <li><a href="#" class="small">Privacy</a></li>
+                    <li><a href="#" class="small">Terms</a></li>
+                    <li><a href="#" class="small">Contact</a></li>
+                    <li><a href="#" class="small">Sitemap</a></li>
+
+                </ul>
+            </div>                <!--/.Fourth column-->
+
+
+            <div class="col-xl-2 col-lg-2 col-md-12 offset-xl-1 offset-lg-1 offset-md-0 copyright">
+                    <span class="small">
+                        © 2016 Copyright: <a href="#"> Visinly </a>
+                    </span>
+
+            </div>
+
+        </div>
+    </div>
+    <!--/.Footer Links-->
+
+
+
+
+
+</footer>
+<!--/.Footer-->
+
+<!-- Modal -->
+<div class="modal fade" id="chooseAnswer" tabindex="-1" role="dialog" aria-labelledby="chooseAnswer" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <!--Content-->
+        <div class="modal-content">
+            <!--Header-->
+            <div class="modal-header" style="border: 0; padding: 0;">
+
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			        <span aria-hidden="true">&times;</span>
+		        </button>
+	        <h2 class="modal-title col-md-12">To provide your visual answer and upload your picture or video</h2>
+            </div>
+            <!--Body-->
+            <div class="modal-body">
+                <!--<div class="row author-line">-->
+                    <!--<div class="col-md-12 card-wrapper">-->
+                        <!--<div class="avatar media col-md-2">-->
+                            <!--<img src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-2.jpg" class="img-circle img-responsive m-x-auto d-block">-->
+                        <!--</div>-->
+
+                        <!--<div class="author-info col-md-10">-->
+                            <!--<h6 class="small"><a href="#">Heather Hollick</a></h6>-->
+                            <!--<p class="small user-role">MS in Mathematics, MBA (Berkeley), Mensa, aficionado of all things interesting</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+
+                <!--</div>-->
+
+
+                
+                <div class="row btn-answer-block">
+                    <div class="col-md-12 btn-answer-wrapper">
+	                    <div class="btn-answer-item btn-ans-big">
+		                    <a class="btn answer-btn choose-btn" href="#"
+		                       data-toggle="modal"
+		                       data-target="#chooseAnswerVideo"
+		                       data-answer="Save from Web"
+		                       data-dismiss="modal"
+		                       data-title="Do we have to do a lot of still life sketching to improve on drawing and shading?">
+
+			                    <i class="fa fa-film" aria-hidden="true"></i>
+			                    <span class="btn-title">Add video</span>
+                                <!--<span class="btn-subtitle">(it will be added automatically)</span>-->
+		                    </a>
+	                    </div>
+
+	                    <div class="btn-answer-item btn-ans-big">
+		                    <a class="btn answer-btn choose-btn" href="#"
+		                       data-toggle="modal"
+                               data-target="#chooseAnswerImg"
+		                       data-answer="Screenshot"
+		                       data-dismiss="modal"
+		                       data-title="Do we have to do a lot of still life sketching to improve on drawing and shading?">
+
+			                    <i class="fa fa-camera" aria-hidden="true"></i>
+			                    <span class="btn-title">Add photo</span>
+                                <!--<span class="btn-subtitle">(it will be added automatically)</span>-->
+		                    </a>
+	                    </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <!--Footer-->
+            <div class="modal-footer" style="border: 0; padding: 0;">
+                <!--<button type="button" class="btn btn-primary">Submit answer</button>-->
+            </div>
+        </div>
+        <!--/.Content-->
+    </div>
+</div>
+
+<div class="modal fade" id="chooseAnswerImg" tabindex="-1" role="dialog" aria-labelledby="chooseAnswerImg" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <!--Content-->
+        <div class="modal-content">
+            <!--Header-->
+            <div class="modal-header" style="border: 0; padding: 0;">
+
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			        <span aria-hidden="true">&times;</span>
+		        </button>
+	        <h2 class="modal-title col-md-12">To provide your visual answer and upload your picture</h2>
+            </div>
+            <!--Body-->
+            <div class="modal-body">
+                <!--<div class="row author-line">-->
+                    <!--<div class="col-md-12 card-wrapper">-->
+                        <!--<div class="avatar media col-md-2">-->
+                            <!--<img src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-2.jpg" class="img-circle img-responsive m-x-auto d-block">-->
+                        <!--</div>-->
+
+                        <!--<div class="author-info col-md-10">-->
+                            <!--<h6 class="small"><a href="#">Heather Hollick</a></h6>-->
+                            <!--<p class="small user-role">MS in Mathematics, MBA (Berkeley), Mensa, aficionado of all things interesting</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+
+                <!--</div>-->
+
+
+
+                <div class="row btn-answer-block">
+                    <div class="col-md-12 btn-answer-wrapper">
+	                    <div class="btn-answer-item">
+		                    <a class="btn answer-btn choose-btn" href="#"
+		                       data-toggle="modal"
+		                       data-target="#answerModal"
+		                       data-answer="Save from Web"
+		                       data-dismiss="modal"
+		                       data-title="Do we have to do a lot of still life sketching to improve on drawing and shading?">
+
+			                    <i class="fa fa-desktop" aria-hidden="true"></i>
+			                    <span class="btn-title">Save from Web</span>
+                                <span class="btn-subtitle">(it will be added automatically)</span>
+		                    </a>
+	                    </div>
+
+	                    <div class="btn-answer-item">
+		                    <a class="btn answer-btn choose-btn" href="#"
+		                       data-toggle="modal"
+		                       data-target="#answerModal1"
+		                       data-answer="Screenshot"
+		                       data-dismiss="modal"
+		                       data-title="Do we have to do a lot of still life sketching to improve on drawing and shading?">
+
+			                    <i class="fa fa-desktop" aria-hidden="true"></i>
+			                    <span class="btn-title">Screenshot</span>
+                                <span class="btn-subtitle">(it will be added automatically)</span>
+		                    </a>
+	                    </div>
+
+	                    <div class="btn-answer-item">
+		                    <a class="btn answer-btn choose-btn" href="#"
+		                       data-toggle="modal"
+		                       data-target="#answerModal"
+		                       data-answer="Upload"
+		                       data-dismiss="modal"
+		                       data-title="Do we have to do a lot of still life sketching to improve on drawing and shading?">
+
+			                    <i class="fa fa-upload" aria-hidden="true"></i>
+			                    <span class="btn-title">Upload</span>
+			                    <span class="btn-subtitle">(from you computer)</span>
+		                    </a>
+
+
+	                    </div>
+
+	                    <!--<div class="btn-answer-item">-->
+		                    <!--<a class="btn answer-btn choose-btn" href="#"-->
+		                       <!--data-toggle="modal"-->
+		                       <!--data-target="#answerModalUrl"-->
+		                       <!--data-answer="URL"-->
+		                       <!--data-dismiss="modal"-->
+		                       <!--data-title="Do we have to do a lot of still life sketching to improve on drawing and shading?">-->
+
+			                    <!--<i class="fa fa-external-link" aria-hidden="true"></i>-->
+			                    <!--<span class="btn-title">URL</span>-->
+			                    <!--<span class="btn-subtitle">(insert the link)</span>-->
+		                    <!--</a>-->
+
+
+	                    <!--</div>-->
+
+	                    <div class="btn-answer-item">
+		                    <a class="btn answer-btn choose-btn" href="#"
+		                       data-toggle="modal"
+		                       data-target="#answerModal"
+		                       data-answer="From account"
+		                       data-dismiss="modal"
+		                       data-title="Do we have to do a lot of still life sketching to improve on drawing and shading?">
+
+			                    <i class="fa fa-list-alt" aria-hidden="true"></i>
+			                    <span class="btn-title">From account</span>
+			                    <span class="btn-subtitle">(your picture saved earlier)</span>
+		                    </a>
+
+
+	                    </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <!--Footer-->
+            <div class="modal-footer" style="border: 0; padding: 0;">
+                <!--<button type="button" class="btn btn-primary">Submit answer</button>-->
+            </div>
+        </div>
+        <!--/.Content-->
+    </div>
+</div>
+<!-- /.Live preview-->
+<div class="modal fade" id="chooseAnswerVideo" tabindex="-1" role="dialog" aria-labelledby="chooseAnswerImg" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <!--Content-->
+        <div class="modal-content">
+            <!--Header-->
+            <div class="modal-header" style="border: 0; padding: 0;">
+
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			        <span aria-hidden="true">&times;</span>
+		        </button>
+	        <h2 class="modal-title col-md-12">To provide your visual answer and upload your video</h2>
+            </div>
+            <!--Body-->
+            <div class="modal-body">
+                <!--<div class="row author-line">-->
+                    <!--<div class="col-md-12 card-wrapper">-->
+                        <!--<div class="avatar media col-md-2">-->
+                            <!--<img src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-2.jpg" class="img-circle img-responsive m-x-auto d-block">-->
+                        <!--</div>-->
+
+                        <!--<div class="author-info col-md-10">-->
+                            <!--<h6 class="small"><a href="#">Heather Hollick</a></h6>-->
+                            <!--<p class="small user-role">MS in Mathematics, MBA (Berkeley), Mensa, aficionado of all things interesting</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+
+                <!--</div>-->
+
+
+
+                <div class="row btn-answer-block">
+                    <div class="col-md-12 btn-answer-wrapper">
+
+	                    <div class="btn-answer-item btn-ans-mid">
+		                    <a class="btn answer-btn choose-btn success-color" href="#"
+		                       data-toggle="modal"
+		                       data-target="#answerModalUrl"
+		                       data-answer="Video"
+		                       data-dismiss="modal"
+		                       data-title="Do we have to do a lot of still life sketching to improve on drawing and shading?">
+
+			                    <i class="fa fa-film" aria-hidden="true"></i>
+			                    <span class="btn-title">Video</span>
+			                    <span class="btn-subtitle">(insert your video)</span>
+		                    </a>
+	                    </div>
+
+                        <div class="btn-answer-item btn-ans-mid">
+		                    <a class="btn answer-btn choose-btn success-color" href="#"
+		                       data-toggle="modal"
+		                       data-target="#answerModal"
+		                       data-answer="Video"
+		                       data-dismiss="modal"
+		                       data-title="Do we have to do a lot of still life sketching to improve on drawing and shading?">
+
+                                <i class="fa fa-upload" aria-hidden="true"></i>
+			                    <span class="btn-title">Upload video</span>
+			                    <span class="btn-subtitle">(insert from your computer)</span>
+		                    </a>
+	                    </div>
+
+	                    <div class="btn-answer-item btn-ans-mid">
+		                    <a class="btn answer-btn choose-btn danger-color" href="#"
+		                       data-toggle="modal"
+		                       data-target="#answerModalRec"
+		                       data-answer="Video"
+		                       data-dismiss="modal"
+		                       data-title="Do we have to do a lot of still life sketching to improve on drawing and shading?">
+
+			                    <i class="fa fa-video-camera" aria-hidden="true"></i>
+			                    <span class="btn-title">Record video</span>
+			                    <span class="btn-subtitle">(from your camera)</span>
+		                    </a>
+	                    </div>
+                    </div>
+                </div>
+            </div>
+            <!--Footer-->
+            <div class="modal-footer" style="border: 0; padding: 0;">
+                <!--<button type="button" class="btn btn-primary">Submit answer</button>-->
+            </div>
+        </div>
+        <!--/.Content-->
+    </div>
+</div>
+<!-- /.Live preview-->
+
+<!-- Modal -->
+<div class="modal fade" id="answerModal" tabindex="-1" role="dialog" aria-labelledby="answerModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <!--Content-->
+        <div class="modal-content">
+            <!--Header-->
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <!--<span aria-hidden="true">&times;</span>-->
+	                <i class="fa fa-times" aria-hidden="true"></i>
+                </button>
+                <button type="button" class="back" data-dismiss="modal" aria-label="back" data-toggle="modal" data-target="#chooseAnswer">
+                    <!--<span aria-hidden="true">&larr;</span>-->
+	                <i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>
+                </button>
+                <h2 class="modal-title" id="myModalLabel1"></h2>
+            </div>
+            <!--Body-->
+            <div class="modal-body">
+                <!--<div class="row author-line">-->
+                    <!--<div class="col-md-12 card-wrapper">-->
+                        <!--<div class="avatar media col-md-2">-->
+                            <!--<img src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-2.jpg" class="img-circle img-responsive m-x-auto d-block">-->
+                        <!--</div>-->
+
+                        <!--<div class="author-info col-md-10">-->
+                            <!--<h6 class="small"><a href="#">Heather Hollick</a></h6>-->
+                            <!--<p class="small user-role">MS in Mathematics, MBA (Berkeley), Mensa, aficionado of all things interesting</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+
+                <!--</div>-->
+
+	            <div class="answer-form">
+		            <h5 id="answerType"></h5>
+
+		            <form>
+			            <input type="file">
+		            </form>
+	            </div>
+
+                <div class="row ">
+                    <div class="text-answer col-md-12">
+                        <textarea cols="30" rows="10" placeholder="Write your answer"></textarea>
+                    </div>
+                </div>
+            </div>
+            <!--Footer-->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="sendFile" data-type="video-upload">Submit answer</button>
+            </div>
+        </div>
+        <!--/.Content-->
+    </div>
+</div>
+
+<div class="modal fade" id="answerModalUrl" tabindex="-1" role="dialog" aria-labelledby="answerModalUrl" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <!--Content-->
+        <div class="modal-content">
+            <!--Header-->
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <!--<span aria-hidden="true">&times;</span>-->
+	                <i class="fa fa-times" aria-hidden="true"></i>
+                </button>
+                <button type="button" class="back" data-dismiss="modal" aria-label="back" data-toggle="modal" data-target="#chooseAnswer">
+                    <!--<span aria-hidden="true">&larr;</span>-->
+	                <i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>
+                </button>
+                <h2 class="modal-title"></h2>
+            </div>
+            <!--Body-->
+            <div class="modal-body">
+                <!--<div class="row author-line">-->
+                    <!--<div class="col-md-12 card-wrapper">-->
+                        <!--<div class="avatar media col-md-2">-->
+                            <!--<img src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-2.jpg" class="img-circle img-responsive m-x-auto d-block">-->
+                        <!--</div>-->
+
+                        <!--<div class="author-info col-md-10">-->
+                            <!--<h6 class="small"><a href="#">Heather Hollick</a></h6>-->
+                            <!--<p class="small user-role">MS in Mathematics, MBA (Berkeley), Mensa, aficionado of all things interesting</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+
+                <!--</div>-->
+                <form>
+                    <div class="answer-form">
+                        <h5 id="answerType"></h5>
+
+
+                            <input type="text" placeholder="Insert URL of media">
+
+                    </div>
+
+                    <div class="row ">
+                        <div class="text-answer col-md-12">
+                            <textarea cols="30" rows="10" placeholder="Write your answer"></textarea>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!--Footer-->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="sendMediaUrl">Submit answer</button>
+            </div>
+        </div>
+        <!--/.Content-->
+    </div>
+</div>
+
+<div class="modal fade" id="answerModalRec" tabindex="-1" role="dialog" aria-labelledby="answerModalRec" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <!--Content-->
+        <div class="modal-content">
+            <!--Header-->
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <!--<span aria-hidden="true">&times;</span>-->
+	                <i class="fa fa-times" aria-hidden="true"></i>
+                </button>
+                <button type="button" class="back" data-dismiss="modal" aria-label="back" data-toggle="modal" data-target="#chooseAnswer">
+                    <!--<span aria-hidden="true">&larr;</span>-->
+	                <i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>
+                </button>
+                <h2 class="modal-title"></h2>
+            </div>
+            <!--Body-->
+            <div class="modal-body">
+                <!--<div class="row author-line">-->
+                    <!--<div class="col-md-12 card-wrapper">-->
+                        <!--<div class="avatar media col-md-2">-->
+                            <!--<img src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-2.jpg" class="img-circle img-responsive m-x-auto d-block">-->
+                        <!--</div>-->
+
+                        <!--<div class="author-info col-md-10">-->
+                            <!--<h6 class="small"><a href="#">Heather Hollick</a></h6>-->
+                            <!--<p class="small user-role">MS in Mathematics, MBA (Berkeley), Mensa, aficionado of all things interesting</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+
+                <!--</div>-->
+                <form>
+                    <div class="answer-form">
+                        <div class="btn-answer-item btn-ans-big">
+
+                        </div>
+
+                    </div>
+
+                    <div class="row ">
+                        <div class="video-block col-md-12">
+                            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!--Footer-->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="recVideo">Record video</button>
+                <button type="button" class="btn btn-primary" id="sendMediaUrl">Submit answer</button>
+            </div>
+        </div>
+        <!--/.Content-->
+    </div>
+</div>
+
+<div class="modal fade" id="answerModal1" tabindex="-1" role="dialog" aria-labelledby="answerModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <!--Content-->
+        <div class="modal-content">
+            <!--Header-->
+            <div class="modal-header">
+	            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		            <!--<span aria-hidden="true">&times;</span>-->
+		            <i class="fa fa-times" aria-hidden="true"></i>
+	            </button>
+	            <button type="button" class="back" data-dismiss="modal" aria-label="back" data-toggle="modal" data-target="#chooseAnswer">
+		            <!--<span aria-hidden="true">&larr;</span>-->
+		            <i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>
+	            </button>
+                <h2 class="modal-title" id="myModalLabel1"></h2>
+            </div>
+            <!--Body-->
+            <div class="modal-body">
+                <!--<div class="row author-line">-->
+                    <!--<div class="col-md-12 card-wrapper">-->
+                        <!--<div class="avatar media col-md-2">-->
+                            <!--<img src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-2.jpg" class="img-circle img-responsive m-x-auto d-block">-->
+                        <!--</div>-->
+
+                        <!--<div class="author-info col-md-10">-->
+                            <!--<h6 class="small"><a href="#">Heather Hollick</a></h6>-->
+                            <!--<p class="small user-role">MS in Mathematics, MBA (Berkeley), Mensa, aficionado of all things interesting</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+
+                <!--</div>-->
+
+	            <div class="answer-form">
+		            <h5 style="color: #4285f4; font-weight: bold;"><a href="#">You can use our addon to answer the question</a></h5>
+
+		            
+	            </div>
+
+                <div class="row ">
+                    <div class="text-answer col-md-12">
+	                    <img alt="imgalt" src="img/left-screen.png" style="max-width: 100%;display: block;margin: 0 auto;width: auto;"/>
+                    </div>
+                </div>
+            </div>
+            <!--Footer-->
+            <div class="modal-footer">
+                <!--<button type="button" class="btn btn-primary">Submit answer</button>-->
+            </div>
+        </div>
+        <!--/.Content-->
+    </div>
+</div>
+
+<div class="modal fade" id="questionFollowers" tabindex="-1" role="dialog" aria-labelledby="questionFollowers" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <!--Content-->
+        <div class="modal-content">
+            <!--Header-->
+            <div class="modal-header">
+	            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		            <!--<span aria-hidden="true">&times;</span>-->
+		            <i class="fa fa-times" aria-hidden="true"></i>
+	            </button>
+
+                <h2 class="modal-title">Question followers</h2>
+            </div>
+            <!--Body-->
+            <div class="modal-body">
+                <!--<div class="row author-line">-->
+                    <!--<div class="col-md-12 card-wrapper">-->
+                        <!--<div class="avatar media col-md-2">-->
+                            <!--<img src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-2.jpg" class="img-circle img-responsive m-x-auto d-block">-->
+                        <!--</div>-->
+
+                        <!--<div class="author-info col-md-10">-->
+                            <!--<h6 class="small"><a href="#">Heather Hollick</a></h6>-->
+                            <!--<p class="small user-role">MS in Mathematics, MBA (Berkeley), Mensa, aficionado of all things interesting</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+
+                <!--</div>-->
+
+
+
+                <div class="row user-cards-list modal-view">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4">
+                        <div class="card-wrapper user-card waves-light waves-effect waves-light">
+
+                            <div class="avatar media ">
+                                <img alt="imgalt" src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-1.jpg" class="img-circle img-responsive m-x-auto d-block">
+                            </div>
+
+                            <h6 class="text-center small"><strong>Heather Hollick</strong></h6>
+
+                            <p class="text-center small user-role">MS in Mathematics, MBA (Berkeley), Mensa, aficionado of all things interesting</p>
+                            <!--<p class="text-center user-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quae, dolores dicta. </p>-->
+
+                            <!--<ul class="inline-ul text-center social-btns">-->
+                            <!--<li><a class="icons-sm fb-ic"><i class="fa fa-facebook"></i></a></li>-->
+                            <!--<li><a class="icons-sm tw-ic"><i class="fa fa-twitter"></i></a></li>-->
+                            <!--<li><a class="icons-sm gplus-ic"><i class="fa fa-google-plus"></i></a></li>-->
+                            <!--<li><a class="icons-sm li-ic"><i class="fa fa-linkedin"></i></a></li>-->
+                            <!--</ul>-->
+
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4">
+                        <div class="card-wrapper user-card waves-light waves-effect waves-light">
+
+                            <div class="avatar media ">
+                                <img alt="imgalt" src="http://mdbootstrap.com/wp-content/uploads/2015/10/avatar-2.jpg" class="img-circle img-responsive m-x-auto d-block">
+                            </div>
+
+                            <h6 class="text-center small"><strong>Heather Hollick</strong></h6>
+
+                            <p class="text-center small user-role">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A animi autem cupiditate</p>
+                            <!--<p class="text-center user-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quae, dolores dicta. </p>-->
+
+                            <!--<ul class="inline-ul text-center social-btns">-->
+                            <!--<li><a class="icons-sm fb-ic"><i class="fa fa-facebook"></i></a></li>-->
+                            <!--<li><a class="icons-sm tw-ic"><i class="fa fa-twitter"></i></a></li>-->
+                            <!--<li><a class="icons-sm gplus-ic"><i class="fa fa-google-plus"></i></a></li>-->
+                            <!--<li><a class="icons-sm li-ic"><i class="fa fa-linkedin"></i></a></li>-->
+                            <!--</ul>-->
+
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4">
+                        <div class="card-wrapper user-card waves-light waves-effect waves-light">
+
+                            <div class="avatar media ">
+                                <img alt="imgalt" src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-2.jpg" class="img-circle img-responsive m-x-auto d-block">
+                            </div>
+
+                            <h6 class="text-center small"><strong>Heather Hollick</strong></h6>
+
+                            <p class="text-center small user-role">MS in Mathematics, MBA (Berkeley), Mensa, aficionado of all things interesting</p>
+                            <!--<p class="text-center user-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quae, dolores dicta. </p>-->
+
+                            <!--<ul class="inline-ul text-center social-btns">-->
+                            <!--<li><a class="icons-sm fb-ic"><i class="fa fa-facebook"></i></a></li>-->
+                            <!--<li><a class="icons-sm tw-ic"><i class="fa fa-twitter"></i></a></li>-->
+                            <!--<li><a class="icons-sm gplus-ic"><i class="fa fa-google-plus"></i></a></li>-->
+                            <!--<li><a class="icons-sm li-ic"><i class="fa fa-linkedin"></i></a></li>-->
+                            <!--</ul>-->
+
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4">
+                        <div class="card-wrapper user-card waves-light waves-effect waves-light">
+
+                            <div class="avatar media ">
+                                <img alt="imgalt" src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-1.jpg" class="img-circle img-responsive m-x-auto d-block">
+                            </div>
+
+                            <h6 class="text-center small"><strong>Heather Hollick</strong></h6>
+
+                            <p class="text-center small user-role">MS in Mathematics, MBA (Berkeley), Mensa, aficionado of all things interesting</p>
+                            <!--<p class="text-center user-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quae, dolores dicta. </p>-->
+
+                            <!--<ul class="inline-ul text-center social-btns">-->
+                            <!--<li><a class="icons-sm fb-ic"><i class="fa fa-facebook"></i></a></li>-->
+                            <!--<li><a class="icons-sm tw-ic"><i class="fa fa-twitter"></i></a></li>-->
+                            <!--<li><a class="icons-sm gplus-ic"><i class="fa fa-google-plus"></i></a></li>-->
+                            <!--<li><a class="icons-sm li-ic"><i class="fa fa-linkedin"></i></a></li>-->
+                            <!--</ul>-->
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4">
+                        <div class="card-wrapper user-card waves-light waves-effect waves-light">
+
+                            <div class="avatar media ">
+                                <img alt="imgalt" src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-1.jpg" class="img-circle img-responsive m-x-auto d-block">
+                            </div>
+
+                            <h6 class="text-center small"><strong>Heather Hollick</strong></h6>
+
+                            <p class="text-center small user-role">MS in Mathematics, MBA (Berkeley), Mensa, aficionado of all things interesting</p>
+                            <!--<p class="text-center user-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quae, dolores dicta. </p>-->
+
+                            <!--<ul class="inline-ul text-center social-btns">-->
+                            <!--<li><a class="icons-sm fb-ic"><i class="fa fa-facebook"></i></a></li>-->
+                            <!--<li><a class="icons-sm tw-ic"><i class="fa fa-twitter"></i></a></li>-->
+                            <!--<li><a class="icons-sm gplus-ic"><i class="fa fa-google-plus"></i></a></li>-->
+                            <!--<li><a class="icons-sm li-ic"><i class="fa fa-linkedin"></i></a></li>-->
+                            <!--</ul>-->
+
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4">
+                        <div class="card-wrapper user-card waves-light waves-effect waves-light">
+
+                            <div class="avatar media ">
+                                <img alt="imgalt" src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-1.jpg" class="img-circle img-responsive m-x-auto d-block">
+                            </div>
+
+                            <h6 class="text-center small"><strong>Heather Hollick</strong></h6>
+
+                            <p class="text-center small user-role">MS in Mathematics, MBA (Berkeley), Mensa, aficionado of all things interesting</p>
+                            <!--<p class="text-center user-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quae, dolores dicta. </p>-->
+
+                            <!--<ul class="inline-ul text-center social-btns">-->
+                            <!--<li><a class="icons-sm fb-ic"><i class="fa fa-facebook"></i></a></li>-->
+                            <!--<li><a class="icons-sm tw-ic"><i class="fa fa-twitter"></i></a></li>-->
+                            <!--<li><a class="icons-sm gplus-ic"><i class="fa fa-google-plus"></i></a></li>-->
+                            <!--<li><a class="icons-sm li-ic"><i class="fa fa-linkedin"></i></a></li>-->
+                            <!--</ul>-->
+
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4">
+                        <div class="card-wrapper user-card waves-light waves-effect waves-light">
+
+                            <div class="avatar media ">
+                                <img alt="imgalt" src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-1.jpg" class="img-circle img-responsive m-x-auto d-block">
+                            </div>
+
+                            <h6 class="text-center small"><strong>Heather Hollick</strong></h6>
+
+                            <p class="text-center small user-role">MS in Mathematics, MBA (Berkeley), Mensa, aficionado of all things interesting</p>
+                            <!--<p class="text-center user-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quae, dolores dicta. </p>-->
+
+                            <!--<ul class="inline-ul text-center social-btns">-->
+                            <!--<li><a class="icons-sm fb-ic"><i class="fa fa-facebook"></i></a></li>-->
+                            <!--<li><a class="icons-sm tw-ic"><i class="fa fa-twitter"></i></a></li>-->
+                            <!--<li><a class="icons-sm gplus-ic"><i class="fa fa-google-plus"></i></a></li>-->
+                            <!--<li><a class="icons-sm li-ic"><i class="fa fa-linkedin"></i></a></li>-->
+                            <!--</ul>-->
+
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4">
+                        <div class="card-wrapper user-card waves-light waves-effect waves-light">
+
+                            <div class="avatar media ">
+                                <img alt="imgalt" src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-1.jpg" class="img-circle img-responsive m-x-auto d-block">
+                            </div>
+
+                            <h6 class="text-center small"><strong>Heather Hollick</strong></h6>
+
+                            <p class="text-center small user-role">MS in Mathematics, MBA (Berkeley), Mensa, aficionado of all things interesting</p>
+                            <!--<p class="text-center user-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quae, dolores dicta. </p>-->
+
+                            <!--<ul class="inline-ul text-center social-btns">-->
+                            <!--<li><a class="icons-sm fb-ic"><i class="fa fa-facebook"></i></a></li>-->
+                            <!--<li><a class="icons-sm tw-ic"><i class="fa fa-twitter"></i></a></li>-->
+                            <!--<li><a class="icons-sm gplus-ic"><i class="fa fa-google-plus"></i></a></li>-->
+                            <!--<li><a class="icons-sm li-ic"><i class="fa fa-linkedin"></i></a></li>-->
+                            <!--</ul>-->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Footer-->
+            <div class="modal-footer">
+                <!--<button type="button" class="btn btn-primary">Submit answer</button>-->
+            </div>
+        </div>
+        <!--/.Content-->
+    </div>
+</div>
+
+<div class="modal fade" id="mediaModal" tabindex="-1" role="dialog" aria-labelledby="mediaModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <!--Content-->
+        <div class="modal-content z-depth-2">
+            <!--Header-->
+
+
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <!--<h4 class="text-center">Thank you for registration!</h4>-->
+                <!--<br>-->
+                <!--<h4 class="modal-title text-center" id="myModalLabel1" style="color: orange; margin-bottom: 1em;">-->
+                    <!--Add Visinly buttons to your browser-->
+                    <!--<span class="modal-subtitle" style="color: #cf7303;">(You can use them to answer the question, or for creation of your own knowledge base )</span>-->
+                <!--</h4>-->
+
+	            <h2 class="modal-title">Do we have to do a lot of still life sketching to improve on drawing and shading before trying with water color drawing and landscape?</h2>
+
+            </div>
+            <!--Body-->
+            <div class="modal-body">
+                <div class="row">
+                    <!--Registration-->
+                    <div class="col-md-6 left-registration" style="border-right: 1px solid #e7e7e7;">
+                        <div class="img-ready z-depth-1">
+                            <img alt="imgalt" src="img/inf1.jpg">
+                        </div>
+
+                        <h5 style="" class="question-title" id="questionTitle">
+                            <span>Do we have to do a lot?</span>
+                            <a id="editQuestion" href="#" class="inline-edit">Edit</a>
+                        </h5>
+
+                        <form id="questionForm" class="question-form" style="display: none; margin-bottom: 30px;">
+
+                            <input id="questionInput" type="text" value="">
+                            <button type="submit" class="btn">Ok</button>
+                        </form>
+
+                        <!--<img src="img/left-screen.png" style="width: 100%;">-->
+                    </div>
+
+                    <div class="col-md-6 left-registration" style="">
+                        <h5 style="" class="question-title">Choose topic</h5>
+                        <input id="chooseTopicInput" type="text" value="" class="choose-topic-input" placeholder="Topic name">
+                        <h5 style="" class="question-title">Recommended topics</h5>
+                        <ul class="recommend-topics">
+                            <li>
+                                <a href="#">Self Developement</a>
+                            </li>
+                            <li>
+                                <a href="#">Music</a>
+                            </li>
+                            <li>
+                                <a href="#">Cinema</a>
+                            </li>
+                            <li>
+                                <a href="#">Super topic</a>
+                            </li>
+                            <li>
+                                <a href="#">Self and not self dev</a>
+                            </li>
+                        </ul>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <a href="#" class="btn danger-color" style="float: left;">
+                                    Cancel
+                                </a>
+
+                                <a href="#" class="btn info-color" style="float: right;">
+                                    Ok
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+            <!--Footer-->
+            <div class="modal-footer" style="border-top: 1px solid lightgray;">
+                <!--<button type="button" class="btn btn-primary">Submit answer</button>-->
+                <div class="row">
+                    <!--<div class="col-md-6 col-sm-6 text-md-left text-sm-left" style="padding-left: 30px;padding-right: 30px;">-->
+                    <!--<a href="#" class="" data-toggle="modal" data-dismiss="modal" data-target="#recoveryModal"><strong>Forgot your password?</strong></a>-->
+                    <!--</div>-->
+
+                    <!--<div class="col-md-12 col-sm-12">-->
+                        <!--<a href="#" id="installExtension" class="btn btn-download" >Add Visinly buttons</a>-->
+                    <!--</div>-->
+
+
+                </div>
+            </div>
+        </div>
+        <!--/.Content-->
+    </div>
+</div>
+
+<div class="modal fade" id="mediaVideoModal" tabindex="-1" role="dialog" aria-labelledby="mediaVideoModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <!--Content-->
+        <div class="modal-content z-depth-2">
+            <!--Header-->
+
+
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <!--<h4 class="text-center">Thank you for registration!</h4>-->
+                <!--<br>-->
+                <!--<h4 class="modal-title text-center" id="myModalLabel1" style="color: orange; margin-bottom: 1em;">-->
+                    <!--Add Visinly buttons to your browser-->
+                    <!--<span class="modal-subtitle" style="color: #cf7303;">(You can use them to answer the question, or for creation of your own knowledge base )</span>-->
+                <!--</h4>-->
+
+	            <h2 class="modal-title">Do we have to do a lot of still life sketching to improve on drawing and shading before trying with water color drawing and landscape?</h2>
+
+            </div>
+            <!--Body-->
+            <div class="modal-body">
+                <div class="row">
+                    <!--Registration-->
+                    <div class="col-md-6 left-registration" style="border-right: 1px solid #e7e7e7;">
+                        <div class="img-ready" style="width: auto; height: auto;">
+	                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen=""
+	                                style="width: 100%; height: 215px;"></iframe>
+                        </div>
+
+                        <h5 style="" class="question-title" id="questionTitle1">
+                            <span>Do we have to do a lot?</span>
+                            <a id="editQuestion1" href="#" class="inline-edit">Edit</a>
+                        </h5>
+
+                        <form id="questionForm1" class="question-form" style="display: none; margin-bottom: 30px;">
+
+                            <input id="questionInput1" type="text" value="Do we have to do a lot of still life sketching to improve on drawing and shading before trying with water color drawing and landscape?">
+                            <button type="submit" class="btn">Ok</button>
+                        </form>
+
+                        <!--<img src="img/left-screen.png" style="width: 100%;">-->
+                    </div>
+
+                    <div class="col-md-6 left-registration" style="">
+                        <h5 style="" class="question-title">Choose topic</h5>
+                        <input id="chooseTopicInput1" type="text" value="" class="choose-topic-input" placeholder="Topic name">
+                        <h5 style="" class="question-title">Recommended topics</h5>
+                        <ul class="recommend-topics">
+                            <li>
+                                <a href="#">Self Developement</a>
+                            </li>
+                            <li>
+                                <a href="#">Music</a>
+                            </li>
+                            <li>
+                                <a href="#">Cinema</a>
+                            </li>
+                            <li>
+                                <a href="#">Super topic</a>
+                            </li>
+                            <li>
+                                <a href="#">Self and not self dev</a>
+                            </li>
+                        </ul>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <a href="#" class="btn danger-color" style="float: left;">
+                                    Cancel
+                                </a>
+
+                                <a href="#" class="btn info-color" style="float: right;">
+                                    Ok
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+            <!--Footer-->
+            <div class="modal-footer" style="border-top: 1px solid lightgray;">
+                <!--<button type="button" class="btn btn-primary">Submit answer</button>-->
+                <div class="row">
+                    <!--<div class="col-md-6 col-sm-6 text-md-left text-sm-left" style="padding-left: 30px;padding-right: 30px;">-->
+                    <!--<a href="#" class="" data-toggle="modal" data-dismiss="modal" data-target="#recoveryModal"><strong>Forgot your password?</strong></a>-->
+                    <!--</div>-->
+
+                    <!--<div class="col-md-12 col-sm-12">-->
+                        <!--<a href="#" id="installExtension" class="btn btn-download" >Add Visinly buttons</a>-->
+                    <!--</div>-->
+
+
+                </div>
+            </div>
+        </div>
+        <!--/.Content-->
+    </div>
+</div>
+
+<!--<div class="modal fade" id="answerModal" tabindex="-1" role="dialog" aria-labelledby="answerModal" aria-hidden="true">&ndash;&gt;-->
+    <!--<div class="modal-dialog modal-lg" role="document">-->
+        <!--&lt;!&ndash;Content&ndash;&gt;-->
+        <!--<div class="modal-content">-->
+            <!--&lt;!&ndash;Header&ndash;&gt;-->
+            <!--<div class="modal-header">-->
+                <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">-->
+                    <!--<span aria-hidden="true">&times;</span>-->
+                <!--</button>-->
+                <!--<h4 class="modal-title" id="myModalLabel1"></h4>-->
+            <!--</div>-->
+            <!--&lt;!&ndash;Body&ndash;&gt;-->
+            <!--<div class="modal-body">-->
+                <!--<div class="row author-line">-->
+                    <!--<div class="col-md-12 card-wrapper">-->
+                        <!--<div class="avatar media col-md-2">-->
+                            <!--<img src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-2.jpg" class="img-circle img-responsive m-x-auto d-block">-->
+                        <!--</div>-->
+
+                        <!--<div class="author-info col-md-10">-->
+                            <!--<h6 class="small"><a href="#">Heather Hollick</a></h6>-->
+                            <!--<p class="small user-role">MS in Mathematics, MBA (Berkeley), Mensa, aficionado of all things interesting</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+
+                <!--</div>-->
+
+                <!--<div class="row answer-tabs">-->
+
+                    <!--&lt;!&ndash; Nav tabs &ndash;&gt;-->
+                    <!--<ul class="nav nav-tabs tabs-6" role="tablist">-->
+                        <!--<li class="nav-item">-->
+                            <!--<p class="nav-link disabled" style="border: 0;line-height: 31px;margin: 0; cursor: default !important; font-size: 14px; padding-bottom: 0; padding-top: 0; background: white;font-weight: bold;">Your answer</p>-->
+                        <!--</li>-->
+                        <!--<li class="nav-item">-->
+                            <!--<a class="nav-link active" data-toggle="tab" href="#panel1" role="tab">Screenshot</a>-->
+                        <!--</li>-->
+                        <!--<li class="nav-item">-->
+                            <!--<a class="nav-link" data-toggle="tab" href="#panel2" role="tab">Upload</a>-->
+                        <!--</li>-->
+                        <!--<li class="nav-item">-->
+                            <!--<a class="nav-link" data-toggle="tab" href="#panel3" role="tab">URL</a>-->
+                        <!--</li>-->
+                        <!--<li class="nav-item">-->
+                            <!--<a class="nav-link" data-toggle="tab" href="#panel4" role="tab">From account</a>-->
+                        <!--</li>-->
+                        <!--<li class="nav-item">-->
+                            <!--<a class="nav-link" data-toggle="tab" href="#panel5" role="tab">Video</a>-->
+                        <!--</li>-->
+                    <!--</ul>-->
+
+                    <!--&lt;!&ndash; Tab panels &ndash;&gt;-->
+                    <!--<div class="tab-content">-->
+
+                        <!--&lt;!&ndash;Panel 1&ndash;&gt;-->
+                        <!--<div class="tab-pane fade in active" id="panel1" role="tabpanel">-->
+                            <!--<br>-->
+                            <!--<form>-->
+                                <!--<input type="file" placeholder="Choose file">-->
+                            <!--</form>-->
+
+
+
+                        <!--</div>-->
+                        <!--&lt;!&ndash;/.Panel 1&ndash;&gt;-->
+
+                        <!--&lt;!&ndash;Panel 2&ndash;&gt;-->
+                        <!--<div class="tab-pane fade" id="panel2" role="tabpanel">-->
+                            <!--<br>-->
+                            <!--<form>-->
+                                <!--<input type="file" placeholder="Choose file">-->
+                            <!--</form>-->
+
+
+                        <!--</div>-->
+                        <!--&lt;!&ndash;/.Panel 2&ndash;&gt;-->
+
+                        <!--&lt;!&ndash;Panel 3&ndash;&gt;-->
+                        <!--<div class="tab-pane fade" id="panel3" role="tabpanel">-->
+                            <!--<br>-->
+
+                            <!--<form>-->
+                                <!--<input type="file" placeholder="Choose file">-->
+                            <!--</form>-->
+
+                        <!--</div>-->
+                        <!--&lt;!&ndash;/.Panel 3&ndash;&gt;-->
+                        <!--&lt;!&ndash;Panel 3&ndash;&gt;-->
+                        <!--<div class="tab-pane fade" id="panel4" role="tabpanel">-->
+                            <!--<br>-->
+
+                            <!--<form>-->
+                                <!--<input type="file" placeholder="Choose file">-->
+                            <!--</form>-->
+
+                        <!--</div>-->
+                        <!--&lt;!&ndash;/.Panel 3&ndash;&gt;-->
+                        <!--&lt;!&ndash;Panel 3&ndash;&gt;-->
+                        <!--<div class="tab-pane fade" id="panel5" role="tabpanel">-->
+                            <!--<br>-->
+
+                            <!--<form>-->
+                                <!--<input type="file" placeholder="Choose file">-->
+                            <!--</form>-->
+
+                        <!--</div>-->
+                        <!--&lt;!&ndash;/.Panel 3&ndash;&gt;-->
+
+                    <!--</div>-->
+
+                <!--</div>-->
+
+                <!--<div class="row ">-->
+                    <!--<div class="text-answer">-->
+                        <!--<textarea name="" id="w" cols="30" rows="10" placeholder="Write your answer"></textarea>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--&lt;!&ndash;Footer&ndash;&gt;-->
+            <!--<div class="modal-footer">-->
+                <!--<button type="button" class="btn btn-primary">Submit answer</button>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--&lt;!&ndash;/.Content&ndash;&gt;-->
+    <!--</div>-->
+<!--</div>-->
+<!-- /.Live preview-->
+
+
+<!-- SCRIPTS -->
+
+<!-- JQuery -->
+<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="js/tether.min.js"></script>
+
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="js/mdb.min.js"></script>
+
+<script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
+
+<script type="text/javascript" src="js/main.js"></script>
+
+
+</body>
+
+</html>
